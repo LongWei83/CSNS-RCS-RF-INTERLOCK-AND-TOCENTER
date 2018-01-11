@@ -1,0 +1,455 @@
+record(bi,"rcs:interLock:LLRF:pps:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00009")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter1:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00501")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter2:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00502")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter3:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00503")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter4:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00504")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter5:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00505")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter6:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00506")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter7:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00507")
+}
+
+record(bi,"rcs:interLock:LLRF:mpsToCenter8:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#Y00508")
+}
+
+record(bi,"rcs:interLock:vacum:R1CCG02:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00301")
+}
+
+record(bi,"rcs:interLock:vacum:R1CCG06:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00302")
+}
+
+record(bi,"rcs:interLock:vacum:R4CCG06:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00303")
+}
+
+record(bi,"rcs:interLock:vacum:R4CCG03:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00305")
+}
+
+record(bi,"rcs:interLock:vacum:R4CCG01:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00306")
+}
+
+record(bi,"rcs:interLock:vacum:R4CCG05:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00307")
+}
+
+record(bi,"rcs:interLock:vacum:R3CCG02:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00309")
+}
+
+record(bi,"rcs:interLock:vacum:R3CCG06:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00310")
+}
+
+record(bi,"rcs:interLock:vacum:R2CCG05:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00311")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS1:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00401")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS1:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00402")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS2:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00403")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS2:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00404")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS3:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00405")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS3:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00406")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS4:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00407")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS4:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00408")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS5:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00409")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS5:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00410")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS6:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00411")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS6:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00412")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS7:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00413")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS7:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00414")
+}
+
+record(bi,"ACC_RCS_RRF:RFPS:RFPS8:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00415")
+}
+
+record(bi,"ACC_RCS_RRF:BIASPS:BIASPS8:Status:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#X00416")
+}
+
+record(bo,"rcs:interLock:LLRF:shutDown:bo") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00016")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK1:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00001")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut1:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00001")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK2:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00002")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut2:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00002")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK3:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00003")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut3:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00003")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK4:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00004")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut4:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00004")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK5:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00005")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut5:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00005")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK6:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00006")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut6:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00006")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK7:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00007")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut7:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00007")
+}
+
+record(bi,"ACC_RCS_RRF:LLRF::MPSMASK8:bi") {
+        field(SCAN, "1 second")
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(INP, "@192.168.0.2(0x3001)#I00008")
+}
+
+record(bo,"rcs:interLock:LLRF:mpsOut8:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT, "@192.168.0.2(0x3001)#I00008")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm1:bo") {
+	field(DTYP,"Yew Plc")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+	field(OUT,"@192.168.0.2(0x3001)#I00021")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm2:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00022")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm3:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00023")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm4:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00024")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm5:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00025")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm6:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00026")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm7:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00027")
+}
+
+record(bo,"rcs:interLock:LLRF:llrfAlarm8:bo") {
+        field(DTYP,"Yew Plc")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"@192.168.0.2(0x3001)#I00028")
+}

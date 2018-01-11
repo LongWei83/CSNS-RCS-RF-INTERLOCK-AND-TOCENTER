@@ -1,0 +1,709 @@
+record(waveform,"ACC_RCS_RRF:LLRF::FreCurveSet:waveform") {
+	field(DTYP,"Soft Channel")
+	field(FLNK, "rcsRfGl:wf_wr_1.PROC")
+	field(NELM,"8192")
+	field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::AmpCurveSet:waveform") {
+	field(DTYP,"Soft Channel")
+	field(FLNK, "rcsRfGl:wf_wr_2.PROC")
+	field(NELM,"16640")
+	field(FTVL,"FLOAT")
+}
+
+record(calc, "ACC_RCS_RRF:RRF1:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf1:alarm0_get")
+        field(INPB, "rcsRf1:alarm1_get")
+        field(INPC, "rcsRf1:alarm2_get")
+        field(INPD, "rcsRf1:alarm3_get")
+	field(INPE, "rcsRf1:alarm4_get")
+	field(INPF, "rcsRf1:alarm5_get")
+	field(INPG, "rcsRf1:alarm6_get")
+	field(INPH, "rcsRf1:alarm7_get")
+	field(INPI, "rcsRf1:intEnable_get")
+}
+
+record(bi, "ACC_RCS_RRF:RRF1::Alarm")
+{
+	field(SCAN, "1 second")
+	field(INP, "ACC_RCS_RRF:RRF1:LLRF:Alarm")
+	field(ZNAM, "NORMAL")
+	field(ONAM, "ALARM")
+	field(ZSV, "NO_ALARM")
+	field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF2::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF2:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF3::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF3:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF4::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF4:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF5::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF5:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF6::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF6:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF7::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF7:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:RRF8::Alarm")
+{
+        field(SCAN, "1 second")
+        field(INP, "ACC_RCS_RRF:RRF8:LLRF:Alarm")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+
+record(calc, "ACC_RCS_RRF:RRF2:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf2:alarm0_get")
+        field(INPB, "rcsRf2:alarm1_get")
+        field(INPC, "rcsRf2:alarm2_get")
+        field(INPD, "rcsRf2:alarm3_get")
+        field(INPE, "rcsRf2:alarm4_get")
+        field(INPF, "rcsRf2:alarm5_get")
+        field(INPG, "rcsRf2:alarm6_get")
+        field(INPH, "rcsRf2:alarm7_get")
+	field(INPI, "rcsRf2:intEnable_get")
+}
+
+
+record(calc, "ACC_RCS_RRF:RRF3:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf3:alarm0_get")
+        field(INPB, "rcsRf3:alarm1_get")
+        field(INPC, "rcsRf3:alarm2_get")
+        field(INPD, "rcsRf3:alarm3_get")
+        field(INPE, "rcsRf3:alarm4_get")
+        field(INPF, "rcsRf3:alarm5_get")
+        field(INPG, "rcsRf3:alarm6_get")
+        field(INPH, "rcsRf3:alarm7_get")
+	field(INPI, "rcsRf3:intEnable_get")
+}
+
+
+record(calc, "ACC_RCS_RRF:RRF4:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf4:alarm0_get")
+        field(INPB, "rcsRf4:alarm1_get")
+        field(INPC, "rcsRf4:alarm2_get")
+        field(INPD, "rcsRf4:alarm3_get")
+        field(INPE, "rcsRf4:alarm4_get")
+        field(INPF, "rcsRf4:alarm5_get")
+        field(INPG, "rcsRf4:alarm6_get")
+        field(INPH, "rcsRf4:alarm7_get")
+	field(INPI, "rcsRf4:intEnable_get")
+}
+
+record(calc, "ACC_RCS_RRF:RRF5:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf5:alarm0_get")
+        field(INPB, "rcsRf5:alarm1_get")
+        field(INPC, "rcsRf5:alarm2_get")
+        field(INPD, "rcsRf5:alarm3_get")
+        field(INPE, "rcsRf5:alarm4_get")
+        field(INPF, "rcsRf5:alarm5_get")
+        field(INPG, "rcsRf5:alarm6_get")
+        field(INPH, "rcsRf5:alarm7_get")
+	field(INPI, "rcsRf5:intEnable_get")
+}
+
+record(calc, "ACC_RCS_RRF:RRF6:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf6:alarm0_get")
+        field(INPB, "rcsRf6:alarm1_get")
+        field(INPC, "rcsRf6:alarm2_get")
+        field(INPD, "rcsRf6:alarm3_get")
+        field(INPE, "rcsRf6:alarm4_get")
+        field(INPF, "rcsRf6:alarm5_get")
+        field(INPG, "rcsRf6:alarm6_get")
+        field(INPH, "rcsRf6:alarm7_get")
+	field(INPI, "rcsRf6:intEnable_get")
+}
+
+record(calc, "ACC_RCS_RRF:RRF7:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf7:alarm0_get")
+        field(INPB, "rcsRf7:alarm1_get")
+        field(INPC, "rcsRf7:alarm2_get")
+        field(INPD, "rcsRf7:alarm3_get")
+        field(INPE, "rcsRf7:alarm4_get")
+        field(INPF, "rcsRf7:alarm5_get")
+        field(INPG, "rcsRf7:alarm6_get")
+        field(INPH, "rcsRf7:alarm7_get")
+	field(INPI, "rcsRf7:intEnable_get")
+}
+
+record(calc, "ACC_RCS_RRF:RRF8:LLRF:Alarm")
+{
+        field(SCAN,"1 second")
+        field(CALC, "(I*(A+B+C+D+E+F+G+H)<1)?0:1")
+        field(INPA, "rcsRf8:alarm0_get")
+        field(INPB, "rcsRf8:alarm1_get")
+        field(INPC, "rcsRf8:alarm2_get")
+        field(INPD, "rcsRf8:alarm3_get")
+        field(INPE, "rcsRf8:alarm4_get")
+        field(INPF, "rcsRf8:alarm5_get")
+        field(INPG, "rcsRf8:alarm6_get")
+        field(INPH, "rcsRf8:alarm7_get")
+	field(INPI, "rcsRf8:intEnable_get")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::BPM1P_AMP:waveform"){
+	field(SCAN,"1 second")
+	field(INP,"rcsRf9:wf_1")
+	field(DTYP,"Soft Channel")
+	field(NELM,"2048")
+	field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::BPM1N_AMP:waveform"){
+	field(SCAN,"1 second")
+	field(INP,"rcsRf9:wf_2")
+	field(DTYP,"Soft Channel")
+	field(NELM,"2048")
+	field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::BPM1_AMP:waveform"){
+	field(SCAN,"1 second")
+	field(INP,"rcsRf9:wf_3")
+	field(DTYP,"Soft Channel")
+	field(NELM,"2048")
+	field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::BeamAmp:waveform"){
+	field(SCAN,"1 second")
+	field(INP,"rcsRf1:wf_3")
+	field(DTYP,"Soft Channel")
+	field(NELM,"2048")
+	field(FTVL,"FLOAT")
+}
+record(waveform,"ACC_RCS_RRF:LLRF::BeamPhase:waveform"){
+	field(SCAN,"1 second")
+	field(INP,"rcsRf1:wf_5b")
+	field(DTYP,"Soft Channel")
+	field(NELM,"2048")
+	field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV1::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf1:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV1::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf1:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV2::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf2:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV2::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf2:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+record(waveform,"ACC_RCS_RRF:CAV3::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf3:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV3::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf3:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+record(waveform,"ACC_RCS_RRF:CAV4::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf4:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV4::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf4:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+record(waveform,"ACC_RCS_RRF:CAV5::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf5:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV5::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf5:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+
+record(waveform,"ACC_RCS_RRF:CAV6::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf6:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV6::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf6:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV7::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf7:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV7::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf7:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV8::Amp:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf8:wf_1")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV8::AmpSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf8:wf_amp_skew")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+
+record(waveform,"ACC_RCS_RRF:xwf"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRfGl:xwf")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF1::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf1:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF1::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf1:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF2::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf2:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF2::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf2:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF3::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf3:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF3::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf3:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF4::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf4:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF4::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf4:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF5::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf5:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF5::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf5:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF6::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf6:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF6::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf6:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF7::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf7:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF7::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf7:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF8::FreCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf8:wr_rd_fre")
+        field(DTYP,"Soft Channel")
+        field(NELM,"8192")
+        field(FTVL,"ULONG")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF8::AmpCurve:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf8:wr_rd_amp")
+        field(DTYP,"Soft Channel")
+        field(NELM,"16640")
+        field(FTVL,"ULONG")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::RfPreTrig:ao")
+{
+	field(OUT,"rcsRf9:allPretrig_set")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::RfPreTrig:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf1:PreTrig_Delay_get")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::BeamPhaseOffset:ao")
+{
+	field(OUT,"rcsRf9:allBeamPhase_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::ChopperDuty:ao")
+{
+        field(OUT,"rcsRf9:Chopper_Duty_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::RfHarmonic:ao")
+{
+        field(OUT,"rcsRf9:Rf_Harmonic_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::WriteAmp:ao")
+{
+        field(OUT,"rcsRfGl:wrDmaBtnAmp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::WriteFre:ao")
+{
+	field(OUT,"rcsRfGl:wrDmaBtnFre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF1::ReadAmp:ao")
+{
+        field(OUT,"rcsRf1:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF1::ReadFre:ao")
+{
+        field(OUT,"rcsRfGl:rd_rcsRf1_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF2::ReadAmp:ao")
+{
+        field(OUT,"rcsRf2:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF2::ReadFre:ao")
+{
+        field(OUT,"rcsRfGl:rd_rcsRf2_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF3::ReadAmp:ao")
+{
+        field(OUT,"rcsRf3:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF3::ReadFre:ao")
+{
+        field(OUT,"rcsRf3:wr_rd_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF4::ReadAmp:ao")
+{
+        field(OUT,"rcsRf4:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF4::ReadFre:ao")
+{
+        field(OUT,"rcsRf4:wr_rd_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF5::ReadAmp:ao")
+{
+        field(OUT,"rcsRf5:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF5::ReadFre:ao")
+{
+        field(OUT,"rcsRf5:wr_rd_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF6::ReadAmp:ao")
+{
+        field(OUT,"rcsRf6:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF6::ReadFre:ao")
+{
+        field(OUT,"rcsRf6:wr_rd_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF7::ReadAmp:ao")
+{
+        field(OUT,"rcsRf7:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF7::ReadFre:ao")
+{
+        field(OUT,"rcsRf7:wr_rd_fre")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF8::ReadAmp:ao")
+{
+        field(OUT,"rcsRf8:wr_rd_amp")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF8::ReadFre:ao")
+{
+        field(OUT,"rcsRf8:wr_rd_fre")
+}
+record(ao, "ACC_RCS_RRF:LLRF::ExtractingPhase:ao")
+{
+	field(OUT,"rcsRf9:exPhase_set")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF::ChangeCurve:bo")
+{
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF::SystemShutDown:bo")
+{
+        field(ZNAM,"0")
+        field(ONAM,"1")
+	field(OUT,"interLock:LLRF:shutDown:bo")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::CavUsed:ai")
+{
+	field(HOPR, "9")
+	field(LOPR, "0")
+	field(HIHI, "9")
+	field(HIGH, "9")
+	field(LOW, "0")
+	field(LOLO, "0")
+	field(HHSV, "MAJOR")
+	field(HSV, "MINOR")
+	field(LSV, "MINOR")
+	field(LLSV, "MAJOR")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::BeamPhaseOffset9:ai")
+{
+	field(SCAN, "1 second")
+	field(INP, "rcsRf9:tuningAngleOffset_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::PreTrig_Delay9:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:PreTrig_Delay_get")
+}
+
+
+record(ai, "ACC_RCS_RRF:LLRF::BeamPhaseOffset:ai")
+{
+	field(SCAN, "1 second")
+	field(INP, "rcsRf1:tuningAngleOffset_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::FixFrequency:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:fixFrequency_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::ExtractingPhase:ai")
+{
+	field(SCAN, "1 second")
+	field(INP, "rcsRf9:exPhase_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::ChopperDuty:ai")
+{
+	field(SCAN, "1 second")
+        field(INP, "rcsRf9:Chopper_Duty_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::RfHarmonic:ai")
+{
+	field(SCAN, "1 second")
+        field(INP, "rcsRf9:Rf_Harmonic_get")
+}
+

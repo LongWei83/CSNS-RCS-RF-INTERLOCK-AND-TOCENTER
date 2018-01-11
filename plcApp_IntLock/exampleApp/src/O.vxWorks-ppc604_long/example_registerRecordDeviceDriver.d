@@ -1,0 +1,31 @@
+example_registerRecordDeviceDriver.o: \
+ example_registerRecordDeviceDriver.cpp \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/vxWorks.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxCpu.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxArch.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/arch/ppc/archPpc.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/arch/ppc/ppc604.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/arch/ppc/toolPpc.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxParams.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxTypesBase.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxTypes.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxANSI.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/types/vxTypesOld.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/sys/types.h \
+ /home/jiangbo/vxworks/Tornado2.2/target/h/tool/gnu/toolMacros.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/epicsStdlib.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/iocsh.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/shareLib.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/iocshRegisterCommon.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/registryCommon.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/dbStaticLib.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/dbFldTypes.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/dbBase.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/epicsTypes.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/ellLib.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/dbDefs.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/link.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/errMdef.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/cantProceed.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/registryRecordType.h \
+ /home/jiangbo/epics/base-3.14.12.1/include/recSup.h

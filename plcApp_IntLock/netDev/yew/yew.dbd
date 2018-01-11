@@ -1,0 +1,13 @@
+#include "eventRespRecord.dbd"
+
+device(ai,INST_IO,devAiYewPlc,"Yew Plc")
+device(ao,INST_IO,devAoYewPlc,"Yew Plc")
+device(bi,INST_IO,devBiYewPlc,"Yew Plc")
+device(bo,INST_IO,devBoYewPlc,"Yew Plc")
+device(longin,INST_IO,devLiYewPlc,"Yew Plc")
+device(longout,INST_IO,devLoYewPlc,"Yew Plc")
+device(mbbiDirect,INST_IO,devMbbiDirectYewPlc,"Yew Plc")
+device(mbboDirect,INST_IO,devMbboDirectYewPlc,"Yew Plc")
+device(waveform,INST_IO,devWfYewPlc,"Yew Plc")
+#device(arrayout,INST_IO,devAroYewPlc,"Yew Plc")
+#device(eventResp,INST_IO,devEventRespYewPlc,"Yew Plc")

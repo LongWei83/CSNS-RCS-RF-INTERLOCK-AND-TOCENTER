@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","linux-x86")
+epicsEnvSet("IOC","iocexample")
+epicsEnvSet("TOP","/home/RCS/plcApp")
+epicsEnvSet("EPICS_BASE","/home/jiangbo/Download/base-3.14.12.1")
