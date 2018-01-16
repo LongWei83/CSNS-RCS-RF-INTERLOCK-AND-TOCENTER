@@ -533,14 +533,44 @@ record(ao, "ACC_RCS_RRF:LLRF::BeamPhaseOffset:ao")
 	field(OUT,"rcsRf9:allBeamPhase_set")
 }
 
+record(ao, "ACC_RCS_RRF:LLRF::BeamPhaseOffset9:ao")
+{
+        field(OUT,"rcsRf9:tuningAngleOffset_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::BPMDelay:ao")
+{
+        field(OUT,"rcsRf9:BPM_Delay_set")
+}
+
 record(ao, "ACC_RCS_RRF:LLRF::ChopperDuty:ao")
 {
         field(OUT,"rcsRf9:Chopper_Duty_set")
 }
 
+record(ao, "ACC_RCS_RRF:LLRF::ChopperPhase:ao")
+{
+        field(OUT,"rcsRf9:chopper_Phase_set")
+}
+
 record(ao, "ACC_RCS_RRF:LLRF::RfHarmonic:ao")
 {
         field(OUT,"rcsRf9:Rf_Harmonic_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::ExPhase:ao")
+{
+        field(OUT,"rcsRf9:exPhase_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::ExDelay:ao")
+{
+        field(OUT,"rcsRf9:ex_Delay_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::AmpCoef:ao")
+{
+        field(OUT,"rcsRf9:allAmpCoeffic_set")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF::WriteAmp:ao")
@@ -632,9 +662,10 @@ record(ao, "ACC_RCS_RRF:LLRF8::ReadFre:ao")
 {
         field(OUT,"rcsRf8:wr_rd_fre")
 }
-record(ao, "ACC_RCS_RRF:LLRF::ExtractingPhase:ao")
+
+record(ao, "ACC_RCS_RRF:LLRF::FixFrequency:ao")
 {
-	field(OUT,"rcsRf9:exPhase_set")
+        field(OUT,"rcsRf9:allFrequency_set")
 }
 
 record(bo, "ACC_RCS_RRF:LLRF::ChangeCurve:bo")
@@ -699,6 +730,36 @@ record(ai, "ACC_RCS_RRF:LLRF::ChopperDuty:ai")
 {
 	field(SCAN, "1 second")
         field(INP, "rcsRf9:Chopper_Duty_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::ChopperPhase:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:chopper_Phase_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::BPMDelay:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:BPM_Delay_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::ExPhase:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:exPhase_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::ExDelay:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:ex_Delay_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::AmpCoef:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf1:amp_get")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF::RfHarmonic:ai")
