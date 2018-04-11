@@ -107,6 +107,15 @@ record(bi, "ACC_RCS_RRF:RRF8::Alarm")
         field(OSV, "MAJOR")
 }
 
+record(bi, "ACC_RCS_RRF:LLRF::ChangeCurve:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf9:freChangeOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
 
 record(calc, "ACC_RCS_RRF:RRF2:LLRF:Alarm")
 {
@@ -233,10 +242,18 @@ record(waveform,"ACC_RCS_RRF:LLRF::BPM1N_AMP:waveform"){
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM1_AMP:waveform"){
 	field(SCAN,"1 second")
-	field(INP,"rcsRf9:wf_3")
+	field(INP,"rcsRf9:bpm1")
 	field(DTYP,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::BPM2_AMP:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf9:bpm2")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BeamAmp:waveform"){
@@ -380,6 +397,69 @@ record(waveform,"ACC_RCS_RRF:CAV8::AmpSkew:waveform"){
         field(FTVL,"FLOAT")
 }
 
+record(waveform,"ACC_RCS_RRF:CAV1::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf1:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV2::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf2:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV3::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf3:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV4::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf4:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV5::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf5:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV6::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf6:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV7::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf7:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:CAV8::PhaseSkew:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf8:wf_5a")
+        field(DTYP,"Soft Channel")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
 
 record(waveform,"ACC_RCS_RRF:xwf"){
         field(SCAN,"1 second")
@@ -668,10 +748,33 @@ record(ao, "ACC_RCS_RRF:LLRF::FixFrequency:ao")
         field(OUT,"rcsRf9:allFrequency_set")
 }
 
+record(ao, "ACC_RCS_RRF:LLRF::bpm1OffSet:ao")
+{
+	field(OUT,"rcsRf9:bpmOffSet1")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::bpm2OffSet:ao")
+{
+        field(OUT,"rcsRf9:bpmOffSet2")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::bpm1OffSet:ai")
+{
+	field(SCAN,"1 second")
+        field(INP,"rcsRf9:bpmOffSet1")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::bpm2OffSet:ai")
+{
+        field(SCAN,"1 second")
+        field(INP,"rcsRf9:bpmOffSet2")
+}
+
 record(bo, "ACC_RCS_RRF:LLRF::ChangeCurve:bo")
 {
 	field(ZNAM,"0")
 	field(ONAM,"1")
+	field(OUT,"rcsRf9:curveChange_set")
 }
 
 record(bo, "ACC_RCS_RRF:LLRF::SystemShutDown:bo")
@@ -759,7 +862,7 @@ record(ai, "ACC_RCS_RRF:LLRF::ExDelay:ai")
 record(ai, "ACC_RCS_RRF:LLRF::AmpCoef:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf1:amp_get")
+        field(INP, "rcsRf1:ampCoefficient_get")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF::RfHarmonic:ai")
