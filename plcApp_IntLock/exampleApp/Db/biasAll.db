@@ -1,0 +1,2504 @@
+record(longin,"rcsRf1:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00001")
+}
+record(longin,"rcsRf1:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00002")
+}
+record(biasdata,"rcsRf1:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Ud02")
+        field(INPB, "rcsRf1:bias:Ud01")
+}
+record(longin,"rcsRf1:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00003")
+}
+record(longin,"rcsRf1:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00004")
+}
+record(biasdata,"rcsRf1:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Ud04")
+        field(INPB, "rcsRf1:bias:Ud03")
+}
+record(longin,"rcsRf1:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00005")
+}
+record(longin,"rcsRf1:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00006")
+}
+record(biasdata,"rcsRf1:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Ud06")
+        field(INPB, "rcsRf1:bias:Ud05")
+}
+record(longin,"rcsRf1:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00007")
+}
+record(longin,"rcsRf1:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00008")
+}
+record(biasdata,"rcsRf1:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id08")
+        field(INPB, "rcsRf1:bias:Id07")
+}
+record(longin,"rcsRf1:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00009")
+}
+record(longin,"rcsRf1:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00010")
+}
+record(biasdata,"rcsRf1:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id10")
+        field(INPB, "rcsRf1:bias:Id09")
+}
+record(longin,"rcsRf1:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00011")
+}
+record(longin,"rcsRf1:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00012")
+}
+record(biasdata,"rcsRf1:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id12")
+        field(INPB, "rcsRf1:bias:Id11")
+}
+record(longin,"rcsRf1:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00013")
+}
+record(longin,"rcsRf1:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00014")
+}
+record(biasdata,"rcsRf1:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Ud14")
+        field(INPB, "rcsRf1:bias:Ud13")
+}
+record(longin,"rcsRf1:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00015")
+}
+record(longin,"rcsRf1:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00016")
+}
+record(biasdata,"rcsRf1:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id16")
+        field(INPB, "rcsRf1:bias:Id15")
+}
+record(longin,"rcsRf1:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00017")
+}
+record(longin,"rcsRf1:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00018")
+}
+record(biasdata,"rcsRf1:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id18")
+        field(INPB, "rcsRf1:bias:Id17")
+}
+record(longin,"rcsRf1:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00019")
+}
+record(longin,"rcsRf1:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00020")
+}
+record(biasdata,"rcsRf1:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id20")
+        field(INPB, "rcsRf1:bias:Id19")
+}
+record(longin,"rcsRf1:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00021")
+}
+record(longin,"rcsRf1:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00022")
+}
+record(biasdata,"rcsRf1:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id22")
+        field(INPB, "rcsRf1:bias:Id21")
+}
+record(longin,"rcsRf1:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00023")
+}
+record(longin,"rcsRf1:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00024")
+}
+record(biasdata,"rcsRf1:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id24")
+        field(INPB, "rcsRf1:bias:Id23")
+}
+record(longin,"rcsRf1:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00025")
+}
+record(longin,"rcsRf1:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00026")
+}
+record(biasdata,"rcsRf1:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id26")
+        field(INPB, "rcsRf1:bias:Id25")
+}
+record(longin,"rcsRf1:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00025")
+}
+record(longin,"rcsRf1:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00026")
+}
+record(biasdata,"rcsRf1:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id26")
+        field(INPB, "rcsRf1:bias:Id25")
+}
+record(longin,"rcsRf1:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00027")
+}
+record(longin,"rcsRf1:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00028")
+}
+record(biasdata,"rcsRf1:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf1:bias:Id28")
+        field(INPB, "rcsRf1:bias:Id27")
+}
+record(longin,"rcsRf1:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00040")
+}
+record(longout,"rcsRf1:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.30(0x3001)#D00040")
+}
+
+record(longin,"rcsRf1:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00041")
+}
+record(longin,"rcsRf1:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00042")
+}
+record(longin,"rcsRf1:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.30(0x3001)#D00043")
+}
+record(ai,"rcsRf1:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.30(0x3001)#D00029")
+}
+record(ai,"rcsRf1:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.30(0x3001)#D00030")
+}
+
+record(longin,"rcsRf2:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00001")
+}
+record(longin,"rcsRf2:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00002")
+}
+record(biasdata,"rcsRf2:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Ud02")
+        field(INPB, "rcsRf2:bias:Ud01")
+}
+record(longin,"rcsRf2:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00003")
+}
+record(longin,"rcsRf2:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00004")
+}
+record(biasdata,"rcsRf2:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Ud04")
+        field(INPB, "rcsRf2:bias:Ud03")
+}
+record(longin,"rcsRf2:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00005")
+}
+record(longin,"rcsRf2:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00006")
+}
+record(biasdata,"rcsRf2:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Ud06")
+        field(INPB, "rcsRf2:bias:Ud05")
+}
+record(longin,"rcsRf2:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00007")
+}
+record(longin,"rcsRf2:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00008")
+}
+record(biasdata,"rcsRf2:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id08")
+        field(INPB, "rcsRf2:bias:Id07")
+}
+record(longin,"rcsRf2:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00009")
+}
+record(longin,"rcsRf2:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00010")
+}
+record(biasdata,"rcsRf2:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id10")
+        field(INPB, "rcsRf2:bias:Id09")
+}
+record(longin,"rcsRf2:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00011")
+}
+record(longin,"rcsRf2:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00012")
+}
+record(biasdata,"rcsRf2:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id12")
+        field(INPB, "rcsRf2:bias:Id11")
+}
+record(longin,"rcsRf2:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00013")
+}
+record(longin,"rcsRf2:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00014")
+}
+record(biasdata,"rcsRf2:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Ud14")
+        field(INPB, "rcsRf2:bias:Ud13")
+}
+record(longin,"rcsRf2:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00015")
+}
+record(longin,"rcsRf2:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00016")
+}
+record(biasdata,"rcsRf2:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id16")
+        field(INPB, "rcsRf2:bias:Id15")
+}
+record(longin,"rcsRf2:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00017")
+}
+record(longin,"rcsRf2:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00018")
+}
+record(biasdata,"rcsRf2:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id18")
+        field(INPB, "rcsRf2:bias:Id17")
+}
+record(longin,"rcsRf2:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00019")
+}
+record(longin,"rcsRf2:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00020")
+}
+record(biasdata,"rcsRf2:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id20")
+        field(INPB, "rcsRf2:bias:Id19")
+}
+record(longin,"rcsRf2:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00021")
+}
+record(longin,"rcsRf2:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00022")
+}
+record(biasdata,"rcsRf2:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id22")
+        field(INPB, "rcsRf2:bias:Id21")
+}
+record(longin,"rcsRf2:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00023")
+}
+record(longin,"rcsRf2:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00024")
+}
+record(biasdata,"rcsRf2:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id24")
+        field(INPB, "rcsRf2:bias:Id23")
+}
+record(longin,"rcsRf2:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00025")
+}
+record(longin,"rcsRf2:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00026")
+}
+record(biasdata,"rcsRf2:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id26")
+        field(INPB, "rcsRf2:bias:Id25")
+}
+record(longin,"rcsRf2:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00025")
+}
+record(longin,"rcsRf2:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00026")
+}
+record(biasdata,"rcsRf2:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id26")
+        field(INPB, "rcsRf2:bias:Id25")
+}
+record(longin,"rcsRf2:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00027")
+}
+record(longin,"rcsRf2:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00028")
+}
+record(biasdata,"rcsRf2:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf2:bias:Id28")
+        field(INPB, "rcsRf2:bias:Id27")
+}
+record(longin,"rcsRf2:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00040")
+}
+record(longout,"rcsRf2:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.31(0x3001)#D00040")
+}
+
+record(longin,"rcsRf2:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00041")
+}
+record(longin,"rcsRf2:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00042")
+}
+record(longin,"rcsRf2:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.31(0x3001)#D00043")
+}
+record(ai,"rcsRf2:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.31(0x3001)#D00029")
+}
+record(ai,"rcsRf2:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.31(0x3001)#D00030")
+}
+
+record(longin,"rcsRf3:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00001")
+}
+record(longin,"rcsRf3:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00002")
+}
+record(biasdata,"rcsRf3:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Ud02")
+        field(INPB, "rcsRf3:bias:Ud01")
+}
+record(longin,"rcsRf3:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00003")
+}
+record(longin,"rcsRf3:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00004")
+}
+record(biasdata,"rcsRf3:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Ud04")
+        field(INPB, "rcsRf3:bias:Ud03")
+}
+record(longin,"rcsRf3:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00005")
+}
+record(longin,"rcsRf3:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00006")
+}
+record(biasdata,"rcsRf3:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Ud06")
+        field(INPB, "rcsRf3:bias:Ud05")
+}
+record(longin,"rcsRf3:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00007")
+}
+record(longin,"rcsRf3:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00008")
+}
+record(biasdata,"rcsRf3:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id08")
+        field(INPB, "rcsRf3:bias:Id07")
+}
+record(longin,"rcsRf3:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00009")
+}
+record(longin,"rcsRf3:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00010")
+}
+record(biasdata,"rcsRf3:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id10")
+        field(INPB, "rcsRf3:bias:Id09")
+}
+record(longin,"rcsRf3:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00011")
+}
+record(longin,"rcsRf3:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00012")
+}
+record(biasdata,"rcsRf3:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id12")
+        field(INPB, "rcsRf3:bias:Id11")
+}
+record(longin,"rcsRf3:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00013")
+}
+record(longin,"rcsRf3:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00014")
+}
+record(biasdata,"rcsRf3:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Ud14")
+        field(INPB, "rcsRf3:bias:Ud13")
+}
+record(longin,"rcsRf3:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00015")
+}
+record(longin,"rcsRf3:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00016")
+}
+record(biasdata,"rcsRf3:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id16")
+        field(INPB, "rcsRf3:bias:Id15")
+}
+record(longin,"rcsRf3:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00017")
+}
+record(longin,"rcsRf3:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00018")
+}
+record(biasdata,"rcsRf3:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id18")
+        field(INPB, "rcsRf3:bias:Id17")
+}
+record(longin,"rcsRf3:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00019")
+}
+record(longin,"rcsRf3:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00020")
+}
+record(biasdata,"rcsRf3:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id20")
+        field(INPB, "rcsRf3:bias:Id19")
+}
+record(longin,"rcsRf3:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00021")
+}
+record(longin,"rcsRf3:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00022")
+}
+record(biasdata,"rcsRf3:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id22")
+        field(INPB, "rcsRf3:bias:Id21")
+}
+record(longin,"rcsRf3:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00023")
+}
+record(longin,"rcsRf3:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00024")
+}
+record(biasdata,"rcsRf3:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id24")
+        field(INPB, "rcsRf3:bias:Id23")
+}
+record(longin,"rcsRf3:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00025")
+}
+record(longin,"rcsRf3:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00026")
+}
+record(biasdata,"rcsRf3:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id26")
+        field(INPB, "rcsRf3:bias:Id25")
+}
+record(longin,"rcsRf3:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00025")
+}
+record(longin,"rcsRf3:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00026")
+}
+record(biasdata,"rcsRf3:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id26")
+        field(INPB, "rcsRf3:bias:Id25")
+}
+record(longin,"rcsRf3:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00027")
+}
+record(longin,"rcsRf3:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00028")
+}
+record(biasdata,"rcsRf3:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf3:bias:Id28")
+        field(INPB, "rcsRf3:bias:Id27")
+}
+record(longin,"rcsRf3:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00040")
+}
+record(longout,"rcsRf3:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.32(0x3001)#D00040")
+}
+
+record(longin,"rcsRf3:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00041")
+}
+record(longin,"rcsRf3:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00042")
+}
+record(longin,"rcsRf3:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.32(0x3001)#D00043")
+}
+record(ai,"rcsRf3:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.32(0x3001)#D00029")
+}
+record(ai,"rcsRf3:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.32(0x3001)#D00030")
+}
+
+record(longin,"rcsRf4:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00001")
+}
+record(longin,"rcsRf4:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00002")
+}
+record(biasdata,"rcsRf4:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Ud02")
+        field(INPB, "rcsRf4:bias:Ud01")
+}
+record(longin,"rcsRf4:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00003")
+}
+record(longin,"rcsRf4:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00004")
+}
+record(biasdata,"rcsRf4:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Ud04")
+        field(INPB, "rcsRf4:bias:Ud03")
+}
+record(longin,"rcsRf4:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00005")
+}
+record(longin,"rcsRf4:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00006")
+}
+record(biasdata,"rcsRf4:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Ud06")
+        field(INPB, "rcsRf4:bias:Ud05")
+}
+record(longin,"rcsRf4:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00007")
+}
+record(longin,"rcsRf4:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00008")
+}
+record(biasdata,"rcsRf4:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id08")
+        field(INPB, "rcsRf4:bias:Id07")
+}
+record(longin,"rcsRf4:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00009")
+}
+record(longin,"rcsRf4:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00010")
+}
+record(biasdata,"rcsRf4:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id10")
+        field(INPB, "rcsRf4:bias:Id09")
+}
+record(longin,"rcsRf4:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00011")
+}
+record(longin,"rcsRf4:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00012")
+}
+record(biasdata,"rcsRf4:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id12")
+        field(INPB, "rcsRf4:bias:Id11")
+}
+record(longin,"rcsRf4:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00013")
+}
+record(longin,"rcsRf4:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00014")
+}
+record(biasdata,"rcsRf4:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Ud14")
+        field(INPB, "rcsRf4:bias:Ud13")
+}
+record(longin,"rcsRf4:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00015")
+}
+record(longin,"rcsRf4:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00016")
+}
+record(biasdata,"rcsRf4:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id16")
+        field(INPB, "rcsRf4:bias:Id15")
+}
+record(longin,"rcsRf4:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00017")
+}
+record(longin,"rcsRf4:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00018")
+}
+record(biasdata,"rcsRf4:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id18")
+        field(INPB, "rcsRf4:bias:Id17")
+}
+record(longin,"rcsRf4:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00019")
+}
+record(longin,"rcsRf4:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00020")
+}
+record(biasdata,"rcsRf4:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id20")
+        field(INPB, "rcsRf4:bias:Id19")
+}
+record(longin,"rcsRf4:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00021")
+}
+record(longin,"rcsRf4:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00022")
+}
+record(biasdata,"rcsRf4:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id22")
+        field(INPB, "rcsRf4:bias:Id21")
+}
+record(longin,"rcsRf4:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00023")
+}
+record(longin,"rcsRf4:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00024")
+}
+record(biasdata,"rcsRf4:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id24")
+        field(INPB, "rcsRf4:bias:Id23")
+}
+record(longin,"rcsRf4:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00025")
+}
+record(longin,"rcsRf4:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00026")
+}
+record(biasdata,"rcsRf4:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id26")
+        field(INPB, "rcsRf4:bias:Id25")
+}
+record(longin,"rcsRf4:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00025")
+}
+record(longin,"rcsRf4:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00026")
+}
+record(biasdata,"rcsRf4:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id26")
+        field(INPB, "rcsRf4:bias:Id25")
+}
+record(longin,"rcsRf4:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00027")
+}
+record(longin,"rcsRf4:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00028")
+}
+record(biasdata,"rcsRf4:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf4:bias:Id28")
+        field(INPB, "rcsRf4:bias:Id27")
+}
+record(longin,"rcsRf4:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00040")
+}
+record(longout,"rcsRf4:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.33(0x3001)#D00040")
+}
+
+record(longin,"rcsRf4:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00041")
+}
+record(longin,"rcsRf4:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00042")
+}
+record(longin,"rcsRf4:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.33(0x3001)#D00043")
+}
+record(ai,"rcsRf4:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.33(0x3001)#D00029")
+}
+record(ai,"rcsRf4:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.33(0x3001)#D00030")
+}
+
+record(longin,"rcsRf5:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00001")
+}
+record(longin,"rcsRf5:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00002")
+}
+record(biasdata,"rcsRf5:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Ud02")
+        field(INPB, "rcsRf5:bias:Ud01")
+}
+record(longin,"rcsRf5:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00003")
+}
+record(longin,"rcsRf5:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00004")
+}
+record(biasdata,"rcsRf5:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Ud04")
+        field(INPB, "rcsRf5:bias:Ud03")
+}
+record(longin,"rcsRf5:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00005")
+}
+record(longin,"rcsRf5:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00006")
+}
+record(biasdata,"rcsRf5:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Ud06")
+        field(INPB, "rcsRf5:bias:Ud05")
+}
+record(longin,"rcsRf5:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00007")
+}
+record(longin,"rcsRf5:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00008")
+}
+record(biasdata,"rcsRf5:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id08")
+        field(INPB, "rcsRf5:bias:Id07")
+}
+record(longin,"rcsRf5:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00009")
+}
+record(longin,"rcsRf5:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00010")
+}
+record(biasdata,"rcsRf5:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id10")
+        field(INPB, "rcsRf5:bias:Id09")
+}
+record(longin,"rcsRf5:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00011")
+}
+record(longin,"rcsRf5:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00012")
+}
+record(biasdata,"rcsRf5:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id12")
+        field(INPB, "rcsRf5:bias:Id11")
+}
+record(longin,"rcsRf5:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00013")
+}
+record(longin,"rcsRf5:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00014")
+}
+record(biasdata,"rcsRf5:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Ud14")
+        field(INPB, "rcsRf5:bias:Ud13")
+}
+record(longin,"rcsRf5:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00015")
+}
+record(longin,"rcsRf5:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00016")
+}
+record(biasdata,"rcsRf5:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id16")
+        field(INPB, "rcsRf5:bias:Id15")
+}
+record(longin,"rcsRf5:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00017")
+}
+record(longin,"rcsRf5:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00018")
+}
+record(biasdata,"rcsRf5:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id18")
+        field(INPB, "rcsRf5:bias:Id17")
+}
+record(longin,"rcsRf5:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00019")
+}
+record(longin,"rcsRf5:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00020")
+}
+record(biasdata,"rcsRf5:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id20")
+        field(INPB, "rcsRf5:bias:Id19")
+}
+record(longin,"rcsRf5:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00021")
+}
+record(longin,"rcsRf5:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00022")
+}
+record(biasdata,"rcsRf5:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id22")
+        field(INPB, "rcsRf5:bias:Id21")
+}
+record(longin,"rcsRf5:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00023")
+}
+record(longin,"rcsRf5:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00024")
+}
+record(biasdata,"rcsRf5:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id24")
+        field(INPB, "rcsRf5:bias:Id23")
+}
+record(longin,"rcsRf5:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00025")
+}
+record(longin,"rcsRf5:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00026")
+}
+record(biasdata,"rcsRf5:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id26")
+        field(INPB, "rcsRf5:bias:Id25")
+}
+record(longin,"rcsRf5:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00025")
+}
+record(longin,"rcsRf5:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00026")
+}
+record(biasdata,"rcsRf5:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id26")
+        field(INPB, "rcsRf5:bias:Id25")
+}
+record(longin,"rcsRf5:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00027")
+}
+record(longin,"rcsRf5:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00028")
+}
+record(biasdata,"rcsRf5:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf5:bias:Id28")
+        field(INPB, "rcsRf5:bias:Id27")
+}
+record(longin,"rcsRf5:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00040")
+}
+record(longout,"rcsRf5:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.34(0x3001)#D00040")
+}
+
+record(longin,"rcsRf5:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00041")
+}
+record(longin,"rcsRf5:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00042")
+}
+record(longin,"rcsRf5:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.34(0x3001)#D00043")
+}
+record(ai,"rcsRf5:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.34(0x3001)#D00029")
+}
+record(ai,"rcsRf5:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.34(0x3001)#D00030")
+}
+
+record(longin,"rcsRf6:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00001")
+}
+record(longin,"rcsRf6:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00002")
+}
+record(biasdata,"rcsRf6:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Ud02")
+        field(INPB, "rcsRf6:bias:Ud01")
+}
+record(longin,"rcsRf6:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00003")
+}
+record(longin,"rcsRf6:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00004")
+}
+record(biasdata,"rcsRf6:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Ud04")
+        field(INPB, "rcsRf6:bias:Ud03")
+}
+record(longin,"rcsRf6:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00005")
+}
+record(longin,"rcsRf6:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00006")
+}
+record(biasdata,"rcsRf6:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Ud06")
+        field(INPB, "rcsRf6:bias:Ud05")
+}
+record(longin,"rcsRf6:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00007")
+}
+record(longin,"rcsRf6:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00008")
+}
+record(biasdata,"rcsRf6:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id08")
+        field(INPB, "rcsRf6:bias:Id07")
+}
+record(longin,"rcsRf6:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00009")
+}
+record(longin,"rcsRf6:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00010")
+}
+record(biasdata,"rcsRf6:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id10")
+        field(INPB, "rcsRf6:bias:Id09")
+}
+record(longin,"rcsRf6:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00011")
+}
+record(longin,"rcsRf6:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00012")
+}
+record(biasdata,"rcsRf6:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id12")
+        field(INPB, "rcsRf6:bias:Id11")
+}
+record(longin,"rcsRf6:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00013")
+}
+record(longin,"rcsRf6:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00014")
+}
+record(biasdata,"rcsRf6:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Ud14")
+        field(INPB, "rcsRf6:bias:Ud13")
+}
+record(longin,"rcsRf6:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00015")
+}
+record(longin,"rcsRf6:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00016")
+}
+record(biasdata,"rcsRf6:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id16")
+        field(INPB, "rcsRf6:bias:Id15")
+}
+record(longin,"rcsRf6:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00017")
+}
+record(longin,"rcsRf6:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00018")
+}
+record(biasdata,"rcsRf6:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id18")
+        field(INPB, "rcsRf6:bias:Id17")
+}
+record(longin,"rcsRf6:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00019")
+}
+record(longin,"rcsRf6:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00020")
+}
+record(biasdata,"rcsRf6:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id20")
+        field(INPB, "rcsRf6:bias:Id19")
+}
+record(longin,"rcsRf6:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00021")
+}
+record(longin,"rcsRf6:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00022")
+}
+record(biasdata,"rcsRf6:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id22")
+        field(INPB, "rcsRf6:bias:Id21")
+}
+record(longin,"rcsRf6:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00023")
+}
+record(longin,"rcsRf6:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00024")
+}
+record(biasdata,"rcsRf6:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id24")
+        field(INPB, "rcsRf6:bias:Id23")
+}
+record(longin,"rcsRf6:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00025")
+}
+record(longin,"rcsRf6:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00026")
+}
+record(biasdata,"rcsRf6:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id26")
+        field(INPB, "rcsRf6:bias:Id25")
+}
+record(longin,"rcsRf6:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00025")
+}
+record(longin,"rcsRf6:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00026")
+}
+record(biasdata,"rcsRf6:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id26")
+        field(INPB, "rcsRf6:bias:Id25")
+}
+record(longin,"rcsRf6:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00027")
+}
+record(longin,"rcsRf6:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00028")
+}
+record(biasdata,"rcsRf6:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf6:bias:Id28")
+        field(INPB, "rcsRf6:bias:Id27")
+}
+record(longin,"rcsRf6:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00040")
+}
+record(longout,"rcsRf6:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.35(0x3001)#D00040")
+}
+
+record(longin,"rcsRf6:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00041")
+}
+record(longin,"rcsRf6:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00042")
+}
+record(longin,"rcsRf6:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.35(0x3001)#D00043")
+}
+record(ai,"rcsRf6:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.35(0x3001)#D00029")
+}
+record(ai,"rcsRf6:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.35(0x3001)#D00030")
+}
+
+record(longin,"rcsRf7:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00001")
+}
+record(longin,"rcsRf7:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00002")
+}
+record(biasdata,"rcsRf7:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Ud02")
+        field(INPB, "rcsRf7:bias:Ud01")
+}
+record(longin,"rcsRf7:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00003")
+}
+record(longin,"rcsRf7:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00004")
+}
+record(biasdata,"rcsRf7:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Ud04")
+        field(INPB, "rcsRf7:bias:Ud03")
+}
+record(longin,"rcsRf7:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00005")
+}
+record(longin,"rcsRf7:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00006")
+}
+record(biasdata,"rcsRf7:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Ud06")
+        field(INPB, "rcsRf7:bias:Ud05")
+}
+record(longin,"rcsRf7:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00007")
+}
+record(longin,"rcsRf7:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00008")
+}
+record(biasdata,"rcsRf7:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id08")
+        field(INPB, "rcsRf7:bias:Id07")
+}
+record(longin,"rcsRf7:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00009")
+}
+record(longin,"rcsRf7:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00010")
+}
+record(biasdata,"rcsRf7:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id10")
+        field(INPB, "rcsRf7:bias:Id09")
+}
+record(longin,"rcsRf7:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00011")
+}
+record(longin,"rcsRf7:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00012")
+}
+record(biasdata,"rcsRf7:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id12")
+        field(INPB, "rcsRf7:bias:Id11")
+}
+record(longin,"rcsRf7:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00013")
+}
+record(longin,"rcsRf7:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00014")
+}
+record(biasdata,"rcsRf7:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Ud14")
+        field(INPB, "rcsRf7:bias:Ud13")
+}
+record(longin,"rcsRf7:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00015")
+}
+record(longin,"rcsRf7:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00016")
+}
+record(biasdata,"rcsRf7:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id16")
+        field(INPB, "rcsRf7:bias:Id15")
+}
+record(longin,"rcsRf7:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00017")
+}
+record(longin,"rcsRf7:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00018")
+}
+record(biasdata,"rcsRf7:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id18")
+        field(INPB, "rcsRf7:bias:Id17")
+}
+record(longin,"rcsRf7:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00019")
+}
+record(longin,"rcsRf7:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00020")
+}
+record(biasdata,"rcsRf7:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id20")
+        field(INPB, "rcsRf7:bias:Id19")
+}
+record(longin,"rcsRf7:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00021")
+}
+record(longin,"rcsRf7:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00022")
+}
+record(biasdata,"rcsRf7:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id22")
+        field(INPB, "rcsRf7:bias:Id21")
+}
+record(longin,"rcsRf7:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00023")
+}
+record(longin,"rcsRf7:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00024")
+}
+record(biasdata,"rcsRf7:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id24")
+        field(INPB, "rcsRf7:bias:Id23")
+}
+record(longin,"rcsRf7:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00025")
+}
+record(longin,"rcsRf7:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00026")
+}
+record(biasdata,"rcsRf7:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id26")
+        field(INPB, "rcsRf7:bias:Id25")
+}
+record(longin,"rcsRf7:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00025")
+}
+record(longin,"rcsRf7:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00026")
+}
+record(biasdata,"rcsRf7:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id26")
+        field(INPB, "rcsRf7:bias:Id25")
+}
+record(longin,"rcsRf7:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00027")
+}
+record(longin,"rcsRf7:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00028")
+}
+record(biasdata,"rcsRf7:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf7:bias:Id28")
+        field(INPB, "rcsRf7:bias:Id27")
+}
+record(longin,"rcsRf7:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00040")
+}
+record(longout,"rcsRf7:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.36(0x3001)#D00040")
+}
+
+record(longin,"rcsRf7:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00041")
+}
+record(longin,"rcsRf7:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00042")
+}
+record(longin,"rcsRf7:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.36(0x3001)#D00043")
+}
+record(ai,"rcsRf7:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.36(0x3001)#D00029")
+}
+record(ai,"rcsRf7:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.36(0x3001)#D00030")
+}
+
+record(longin,"rcsRf8:bias:Ud01")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00001")
+}
+record(longin,"rcsRf8:bias:Ud02")
+{        
+	field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00002")
+}
+record(biasdata,"rcsRf8:bias:Uab")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Ud02")
+        field(INPB, "rcsRf8:bias:Ud01")
+}
+record(longin,"rcsRf8:bias:Ud03")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00003")
+}
+record(longin,"rcsRf8:bias:Ud04")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00004")
+}
+record(biasdata,"rcsRf8:bias:Ubc")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Ud04")
+        field(INPB, "rcsRf8:bias:Ud03")
+}
+record(longin,"rcsRf8:bias:Ud05")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00005")
+}
+record(longin,"rcsRf8:bias:Ud06")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00006")
+}
+record(biasdata,"rcsRf8:bias:Uca")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Ud06")
+        field(INPB, "rcsRf8:bias:Ud05")
+}
+record(longin,"rcsRf8:bias:Id07")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00007")
+}
+record(longin,"rcsRf8:bias:Id08")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00008")
+}
+record(biasdata,"rcsRf8:bias:Ia")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id08")
+        field(INPB, "rcsRf8:bias:Id07")
+}
+record(longin,"rcsRf8:bias:Id09")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00009")
+}
+record(longin,"rcsRf8:bias:Id10")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00010")
+}
+record(biasdata,"rcsRf8:bias:Ib")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id10")
+        field(INPB, "rcsRf8:bias:Id09")
+}
+record(longin,"rcsRf8:bias:Id11")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00011")
+}
+record(longin,"rcsRf8:bias:Id12")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00012")
+}
+record(biasdata,"rcsRf8:bias:Ic")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id12")
+        field(INPB, "rcsRf8:bias:Id11")
+}
+record(longin,"rcsRf8:bias:Ud13")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00013")
+}
+record(longin,"rcsRf8:bias:Ud14")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00014")
+}
+record(biasdata,"rcsRf8:bias:Uo")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Ud14")
+        field(INPB, "rcsRf8:bias:Ud13")
+}
+record(longin,"rcsRf8:bias:Id15")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00015")
+}
+record(longin,"rcsRf8:bias:Id16")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00016")
+}
+record(biasdata,"rcsRf8:bias:Io")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id16")
+        field(INPB, "rcsRf8:bias:Id15")
+}
+record(longin,"rcsRf8:bias:Id17")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00017")
+}
+record(longin,"rcsRf8:bias:Id18")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00018")
+}
+record(biasdata,"rcsRf8:bias:Io1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id18")
+        field(INPB, "rcsRf8:bias:Id17")
+}
+record(longin,"rcsRf8:bias:Id19")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00019")
+}
+record(longin,"rcsRf8:bias:Id20")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00020")
+}
+record(biasdata,"rcsRf8:bias:Io2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id20")
+        field(INPB, "rcsRf8:bias:Id19")
+}
+record(longin,"rcsRf8:bias:Id21")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00021")
+}
+record(longin,"rcsRf8:bias:Id22")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00022")
+}
+record(biasdata,"rcsRf8:bias:IL1")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id22")
+        field(INPB, "rcsRf8:bias:Id21")
+}
+record(longin,"rcsRf8:bias:Id23")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00023")
+}
+record(longin,"rcsRf8:bias:Id24")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00024")
+}
+record(biasdata,"rcsRf8:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id24")
+        field(INPB, "rcsRf8:bias:Id23")
+}
+record(longin,"rcsRf8:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00025")
+}
+record(longin,"rcsRf8:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00026")
+}
+record(biasdata,"rcsRf8:bias:IL2")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id26")
+        field(INPB, "rcsRf8:bias:Id25")
+}
+record(longin,"rcsRf8:bias:Id25")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00025")
+}
+record(longin,"rcsRf8:bias:Id26")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00026")
+}
+record(biasdata,"rcsRf8:bias:IL3")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id26")
+        field(INPB, "rcsRf8:bias:Id25")
+}
+record(longin,"rcsRf8:bias:Id27")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00027")
+}
+record(longin,"rcsRf8:bias:Id28")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00028")
+}
+record(biasdata,"rcsRf8:bias:IL4")
+{
+        field(SCAN, "1 second")
+	field(INPA, "rcsRf8:bias:Id28")
+        field(INPB, "rcsRf8:bias:Id27")
+}
+record(longin,"rcsRf8:bias:Ctl_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00040")
+}
+record(longout,"rcsRf8:bias:Ctl_set")
+{
+        field(DTYP, "Yew Plc")
+        field(OUT, "@192.168.0.37(0x3001)#D00040")
+}
+
+record(longin,"rcsRf8:bias:workMode_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00041")
+}
+record(longin,"rcsRf8:bias:Local_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00042")
+}
+record(longin,"rcsRf8:bias:Remote_get")
+{        
+        field(SCAN, "1 second")
+	field(DTYP, "Yew Plc")
+	field(INP, "@192.168.0.37(0x3001)#D00043")
+}
+record(ai,"rcsRf8:bias:status")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.37(0x3001)#D00029")
+}
+record(ai,"rcsRf8:bias:model")
+{
+    field(SCAN, "1 second")
+    field(DTYP, "Yew Plc")
+    field(INP, "@192.168.0.37(0x3001)#D00030")
+}
+

@@ -1,0 +1,1008 @@
+record(ai, "ACC_RCS_RRF:RFPS1::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS1::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:INT52")
+}
+DOUBLE
+record(ai, "ACC_RCS_RRF:CAV1::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV1::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV1::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV1::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV1::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV1::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf1:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS2::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV2::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV2::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV2::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV2::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV2::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV2::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf2:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS3::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV3::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV3::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV3::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV3::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV3::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV3::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf3:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS4::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf4:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS5::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV4::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf5:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS6::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV6::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV6::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV6::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV6::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV6::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV6::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf6:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS7::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV7::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV7::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV7::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV7::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV7::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV7::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf7:rf:DOUBEL23")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::FinalScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE6")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::FrontScreenGridBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE1")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::FinalBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE2")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::FrontBiasVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE0")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::LightVol:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE12")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::HighVolRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE14")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::TransformerRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE15")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::TransformerTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE16")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::MonitorRTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE19")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::TransformerRHUM:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBLE17")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::HighVolLightOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:INT51")
+}
+
+record(ai, "ACC_RCS_RRF:RFPS8::FeedBackAmpCurrentOVFL:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:INT52")
+}
+
+record(ai, "ACC_RCS_RRF:CAV8::LeftWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBEL20")
+}
+
+record(ai, "ACC_RCS_RRF:CAV8::LeftWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV8::RightWaterOutTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBEL21")
+}
+
+record(ai, "ACC_RCS_RRF:CAV8::RightWaterInTEMP:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBEL19")
+}
+
+record(ai, "ACC_RCS_RRF:CAV8::LeftWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBEL22")
+}
+
+record(ai, "ACC_RCS_RRF:CAV8::RightWaterOutFLOW:ai")
+{
+        field(SCAN, "1 second")
+        field(EGU, "V")
+        field(INP, "rcsRRf8:rf:DOUBEL23")
+}
+
