@@ -15,6 +15,9 @@ example_registerRecordDeviceDriver pdbbase
 
 dbLoadRecords "db/interLock.db"
 dbLoadRecords "db/toCenter.db"
+dbLoadRecords "db/toArchive.db"
+dbLoadRecords "db/biasAll.db"
+dbLoadRecords "db/autoOnOff.db"
 
 ## Set this to see messages from mySub
 #var mySubDebug 1
@@ -26,3 +29,4 @@ dbLoadRecords "db/toCenter.db"
 iocInit
 
 seq sncExample
+seq sncExample2

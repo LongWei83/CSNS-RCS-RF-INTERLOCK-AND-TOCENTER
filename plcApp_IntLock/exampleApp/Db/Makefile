@@ -12,6 +12,9 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 DB += interLock.db
 DB += toCenter.db
+DB += toArchive.db
+DB += biasAll.db
+DB += autoOnOff.db
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
 # <anyname>_TEMPLATE = <templatename>

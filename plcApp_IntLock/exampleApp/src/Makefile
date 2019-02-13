@@ -78,6 +78,21 @@ ifneq ($(SNCSEQ),)
     sncProgram_SRCS += sncProgram.st
     sncProgram_LIBS += seq pv
     sncProgram_LIBS += $(EPICS_BASE_HOST_LIBS)
+
+    # Build sncExample into exampleSupport
+    sncExample2_SNCFLAGS += +r
+    example_DBD += sncExample2.dbd
+    exampleSupport_SRCS += sncExample2.stt
+    exampleSupport_LIBS += seq pv
+    example_LIBS += seq pv
+
+    # Build sncProgram as a standalone program
+    PROD_HOST += sncProgram2
+    sncProgram2_SNCFLAGS += +m
+    sncProgram2_SRCS += sncProgram2.st
+    sncProgram2_LIBS += seq pv
+    sncProgram2_LIBS += $(EPICS_BASE_HOST_LIBS)
+
 endif
 
 # Finally link to the EPICS Base libraries
