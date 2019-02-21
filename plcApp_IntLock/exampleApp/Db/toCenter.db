@@ -2913,6 +2913,198 @@ record(bi, "ACC_RCS_RRF:LLRF:LLRF1:Beam_feedforward:bi")
         field(OSV, "MAJOR")
 }
 
+record(bi, "ACC_RCS_RRF:LLRF:LLRF1:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf1:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF2:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf2:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF3:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf3:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF4:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf4:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF5:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf5:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF6:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf6:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF7:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf7:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bi, "ACC_RCS_RRF:LLRF:LLRF8:Beam_PhaseOption:bi")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf8:beamPhaseOption_get")
+        field(ZNAM, "NORMAL")
+        field(ONAM, "ALARM")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF1:autoOn:bo")
+{
+	field(OUT,"rcsRf1:autoOn")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF1:autoOff:bo")
+{
+        field(OUT,"rcsRf1:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF2:autoOn:bo")
+{
+        field(OUT,"rcsRf2:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF2:autoOff:bo")
+{
+        field(OUT,"rcsRf2:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF3:autoOn:bo")
+{
+        field(OUT,"rcsRf3:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF3:autoOff:bo")
+{
+        field(OUT,"rcsRf3:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF4:autoOn:bo")
+{
+        field(OUT,"rcsRf4:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF4:autoOff:bo")
+{
+        field(OUT,"rcsRf4:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF5:autoOn:bo")
+{
+        field(OUT,"rcsRf5:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF5:autoOff:bo")
+{
+        field(OUT,"rcsRf5:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF6:autoOn:bo")
+{
+        field(OUT,"rcsRf6:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF6:autoOff:bo")
+{
+        field(OUT,"rcsRf6:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF7:autoOn:bo")
+{
+        field(OUT,"rcsRf7:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF7:autoOff:bo")
+{
+        field(OUT,"rcsRf7:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF8:autoOn:bo")
+{
+        field(OUT,"rcsRf8:autoOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF:LLRF8:autoOff:bo")
+{
+        field(OUT,"rcsRf8:autoOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
 record(bo, "ACC_RCS_RRF:LLRF:LLRF1:IntEnable:bo")
 {
         field(OUT, "rcsRf1:intEnable_set")
@@ -3051,6 +3243,62 @@ record(bo, "ACC_RCS_RRF:LLRF:LLRF1:Beam_int:bo")
 record(bo, "ACC_RCS_RRF:LLRF:LLRF1:Beam_feedforward:bo")
 {
         field(OUT, "rcsRf1:beam_feedforward_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF1:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf1:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF2:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf2:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF3:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf3:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF4:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf4:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF5:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf5:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF6:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf6:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF7:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf7:beamPhaseOption_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
+record(bo, "ACC_RCS_RRF:LLRF:LLRF8:Beam_PhaseOption:bo")
+{
+        field(OUT, "rcsRf8:beamPhaseOption_set")
         field(ZNAM, "0")
         field(ONAM, "1")
 }
