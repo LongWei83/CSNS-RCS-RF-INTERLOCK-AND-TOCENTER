@@ -66,18 +66,18 @@ example_LIBS += netDev
 
 ifneq ($(SNCSEQ),)
     # Build sncExample into exampleSupport
-    sncExample_SNCFLAGS += +r
-    example_DBD += sncExample.dbd
-    exampleSupport_SRCS += sncExample.stt
-    exampleSupport_LIBS += seq pv
-    example_LIBS += seq pv
+    # sncExample_SNCFLAGS += +r
+    # example_DBD += sncExample.dbd
+    # exampleSupport_SRCS += sncExample.stt
+    # exampleSupport_LIBS += seq pv
+    # example_LIBS += seq pv
 
     # Build sncProgram as a standalone program
-    PROD_HOST += sncProgram
-    sncProgram_SNCFLAGS += +m
-    sncProgram_SRCS += sncProgram.st
-    sncProgram_LIBS += seq pv
-    sncProgram_LIBS += $(EPICS_BASE_HOST_LIBS)
+    # PROD_HOST += sncProgram
+    # sncProgram_SNCFLAGS += +m
+    # sncProgram_SRCS += sncProgram.st
+    # sncProgram_LIBS += seq pv
+    # sncProgram_LIBS += $(EPICS_BASE_HOST_LIBS)
 
     # Build sncExample into exampleSupport
     sncExample2_SNCFLAGS += +r

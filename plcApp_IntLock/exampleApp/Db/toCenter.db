@@ -2993,6 +2993,20 @@ record(bi, "ACC_RCS_RRF:LLRF:LLRF8:Beam_PhaseOption:bi")
         field(OSV, "MAJOR")
 }
 
+record(bo,"ACC_RCS_RRF:LLRF::allOn:bo")
+{
+        field(OUT,"rcsRfGl:allOn")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
+record(bo,"ACC_RCS_RRF:LLRF::allOff:bo")
+{
+        field(OUT,"rcsRfGl:allOff")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+}
+
 record(bo,"ACC_RCS_RRF:LLRF:LLRF1:autoOn:bo")
 {
 	field(OUT,"rcsRf1:autoOn")

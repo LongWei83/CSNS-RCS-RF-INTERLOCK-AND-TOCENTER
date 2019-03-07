@@ -307,7 +307,6 @@ static struct drvet *drvsl[1] = {
 epicsShareExtern void (*pvar_func_asSub)(void);
 epicsShareExtern void (*pvar_func_helloRegister)(void);
 epicsShareExtern void (*pvar_func_initTraceRegister)(void);
-epicsShareExtern void (*pvar_func_sncExampleRegistrar)(void);
 epicsShareExtern void (*pvar_func_sncExample2Registrar)(void);
 epicsShareExtern void (*pvar_func_register_func_mySubInit)(void);
 epicsShareExtern void (*pvar_func_register_func_mySubProcess)(void);
@@ -350,7 +349,6 @@ int example_registerRecordDeviceDriver(DBBASE *pbase)
     (*pvar_func_asSub)();
     (*pvar_func_helloRegister)();
     (*pvar_func_initTraceRegister)();
-    (*pvar_func_sncExampleRegistrar)();
     (*pvar_func_sncExample2Registrar)();
     (*pvar_func_register_func_mySubInit)();
     (*pvar_func_register_func_mySubProcess)();
