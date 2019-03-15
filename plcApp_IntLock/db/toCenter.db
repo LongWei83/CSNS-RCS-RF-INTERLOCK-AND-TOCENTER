@@ -5632,6 +5632,13 @@ record(bo, "ACC_RCS_RRF:LLRF:LLRF8:RfReset:bo")
         field(ONAM, "1")
 }
 
+record(bo, "ACC_RCS_RRF:LLRF:LLRF9:RfReset:bo")
+{
+        field(OUT, "rcsRf9:rfReset_set")
+        field(ZNAM, "0")
+        field(ONAM, "1")
+}
+
 record(bo, "ACC_RCS_RRF:LLRF:LLRF8:AmpOption:bo")
 {
         field(OUT, "rcsRf8:ampOption_set")
