@@ -312,6 +312,9 @@ epicsShareExtern void (*pvar_func_register_func_mySubInit)(void);
 epicsShareExtern void (*pvar_func_register_func_mySubProcess)(void);
 epicsShareExtern void (*pvar_func_register_func_myAsubInit)(void);
 epicsShareExtern void (*pvar_func_register_func_myAsubProcess)(void);
+epicsShareExtern void (*pvar_func_register_func_addWV)(void);
+epicsShareExtern void (*pvar_func_register_func_stringChoose)(void);
+epicsShareExtern void (*pvar_func_register_func_stringRunning)(void);
 
 epicsShareExtern int *pvar_int_asCaDebug;
 epicsShareExtern int *pvar_int_dbRecordsOnceOnly;
@@ -354,6 +357,9 @@ int example_registerRecordDeviceDriver(DBBASE *pbase)
     (*pvar_func_register_func_mySubProcess)();
     (*pvar_func_register_func_myAsubInit)();
     (*pvar_func_register_func_myAsubProcess)();
+    (*pvar_func_register_func_addWV)();
+    (*pvar_func_register_func_stringChoose)();
+    (*pvar_func_register_func_stringRunning)();
     iocshRegisterVariable(vardefs);
     return 0;
 }

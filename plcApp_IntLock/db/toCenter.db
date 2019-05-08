@@ -1,3 +1,211 @@
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAddAll:waveform")
+{
+        field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+        field(FTB, "DOUBLE")
+        field(FTC, "DOUBLE")
+        field(FTE, "DOUBLE")
+        field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::AmpAdd5:waveform.VALA")
+        field(INPB,"1")
+        field(INPC,"0")
+        field(INPD,"ACC_RCS_RRF:CAV8::Amp:waveform")
+        field(INPE,"0.8821")
+        field(INPF,"1.4107")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAdd5:waveform")
+{
+        field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+        field(FTB, "DOUBLE")
+        field(FTC, "DOUBLE")
+        field(FTE, "DOUBLE")
+        field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::AmpAdd4:waveform.VALA")
+        field(INPB,"1")
+        field(INPC,"0")
+        field(INPD,"ACC_RCS_RRF:CAV7::Amp:waveform")
+        field(INPE,"0.75")
+        field(INPF,"4.0214")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAdd4:waveform")
+{
+        field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+        field(FTB, "DOUBLE")
+        field(FTC, "DOUBLE")
+        field(FTE, "DOUBLE")
+        field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::AmpAdd3:waveform.VALA")
+        field(INPB,"1")
+        field(INPC,"0")
+        field(INPD,"ACC_RCS_RRF:CAV6::Amp:waveform")
+        field(INPE,"0.9321")
+        field(INPF,"0.2893")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAdd3:waveform")
+{
+        field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+        field(FTB, "DOUBLE")
+        field(FTC, "DOUBLE")
+        field(FTE, "DOUBLE")
+        field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::AmpAdd2:waveform.VALA")
+        field(INPB,"1")
+        field(INPC,"0")
+        field(INPD,"ACC_RCS_RRF:CAV5::Amp:waveform")
+        field(INPE,"0.8536")
+        field(INPF,"0.9393")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAdd2:waveform")
+{
+        field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+        field(FTB, "DOUBLE")
+        field(FTC, "DOUBLE")
+        field(FTE, "DOUBLE")
+        field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::AmpAdd1:waveform.VALA")
+        field(INPB,"1")
+        field(INPC,"0")
+        field(INPD,"ACC_RCS_RRF:CAV4::Amp:waveform")
+        field(INPE,"0.784")
+        field(INPF,"3.1568")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAdd1:waveform")
+{
+        field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+        field(FTB, "DOUBLE")
+        field(FTC, "DOUBLE")
+        field(FTE, "DOUBLE")
+        field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::AmpAdd:waveform.VALA")
+        field(INPB,"1")
+        field(INPC,"0")
+        field(INPD,"ACC_RCS_RRF:CAV3::Amp:waveform")
+        field(INPE,"0.793")
+        field(INPF,"3.0267")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+
+record(aSub,"ACC_RCS_RRF:LLRF::AmpAdd:waveform")
+{
+	field(SCAN,"2 second")
+        field(SNAM, "addWV")
+        field(FTA, "DOUBLE")
+	field(FTB, "DOUBLE")
+	field(FTC, "DOUBLE")
+	field(FTE, "DOUBLE")
+	field(FTF, "DOUBLE")
+        field(FTD, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:CAV1::Amp:waveform")
+	field(INPB,"1.0679")
+	field(INPC,"-3.6036")
+        field(INPD,"ACC_RCS_RRF:CAV2::Amp:waveform")
+	field(INPE,"0.9359")
+	field(INPF,"0.5282")
+        field(NOA, "2048")
+        field(NOVA,"2048")
+        field(NOD,"2048")
+}
+
+record(aSub,"ACC_RCS_RRF:LLRF::RunningCurveName")
+{
+        field(SCAN,".5 second")
+        field(SNAM, "stringRunning")
+        field(FTA, "STRING")
+	field(FTB, "STRING")
+        field(FTC, "DOUBLE")
+        field(INPA,"ACC_RCS_RRF:LLRF::CurveName:stringin.VALA")
+        field(INPB,"ACC_RCS_RRF:LLRF::CurveName:stringin.VALB")
+	field(INPC,"ACC_RCS_RRF:LLRF::ChangeCurve:bi")
+        field(NOA, "40")
+        field(NOB,"40")
+        field(FTVA,"STRING")
+        field(NOVA,"40")
+}
+
+
+record(stringin,"ACC_RCS_RRF:LLRF::CurveName")
+{
+}
+
+record(aSub,"ACC_RCS_RRF:LLRF::CurveName:stringin")
+{
+	field(SCAN,"1 second")
+	field(SNAM, "stringChoose")
+	field(FTA, "STRING")
+	field(FTC, "STRING")
+	field(INPA,"ACC_RCS_RRF:LLRF::CurveName")
+	field(INPB,"ACC_RCS_RRF:LLRF::ChangeCurve:bi")
+	field(FTB, "DOUBLE")
+	field(NOA, "40")
+	field(NOVA,"40")
+	field(FTVA,"STRING")
+	field(NOVB,"40")
+	field(FTVB,"STRING")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::memoryUsedPercent:ai")
+{
+        field(SCAN, "10 second")
+        field(INP, "rcsRfGl:memoryUsedPercent")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::cpuUsedPercent:ai")
+{
+        field(SCAN, "10 second")
+        field(INP, "rcsRfGl:cpuUsedPercent")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF:LLRF10:SynOscSEnable:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf10:SynOscSEnable_get")
+	field(EGU, "ms")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF:LLRF10:SynOscEEnable:ai")
+{
+        field(SCAN, "1 second")
+        field(INP, "rcsRf10:SynOscEEnable_get")
+	field(EGU, "ms")
+}
+
 record(ai, "ACC_RCS_RRF:LLRF:LLRF1:WorkPeriod:ai")
 {
         field(SCAN, "1 second")
@@ -13,6 +221,22 @@ record(ai, "ACC_RCS_RRF:LLRF:LLRF2:WorkPeriod:ai")
         field(SCAN, "1 second")
         field(INP, "rcsRf2:workPeriod_get")
 }
+
+record(ao, "ACC_RCS_RRF:LLRF:LLRF2:WorkPeriod:ao")
+{
+        field(OUT,"rcsRf2:workPeriod_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF:LLRF10:rcsRf10:SynOscSEnable:ao")
+{
+        field(OUT,"rcsRf10:SynOscSEnable_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF:LLRF10:rcsRf10:SynOscEEnable:ao")
+{
+        field(OUT,"rcsRf10:SynOscEEnable_set")
+}
+
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF2:WorkPeriod:ao")
 {
@@ -5906,9 +6130,9 @@ record(bi, "ACC_RCS_RRF:RRF8::Alarm")
 record(bi, "ACC_RCS_RRF:LLRF::ChangeCurve:bi")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf9:freChangeOption_get")
-        field(ZNAM, "NORMAL")
-        field(ONAM, "ALARM")
+	field(INP, "rcsRf9:freChangeOption_get")
+        field(ZNAM, "0")
+        field(ONAM, "1")
         field(ZSV, "NO_ALARM")
         field(OSV, "MAJOR")
 }
@@ -6020,82 +6244,108 @@ record(calc, "ACC_RCS_RRF:RRF8:LLRF:Alarm")
 	field(INPI, "rcsRf8:intEnable_get")
 }
 
+record(waveform,"ACC_RCS_RRF:LLRF::FCT_AMP:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf10:fct_amp")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::FCT_PHASE:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf10:fct_phase")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::SYN_PHASE:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf10:syn_phase")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::WCM_AMP:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf9:wcm_amp")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+record(waveform,"ACC_RCS_RRF:LLRF::WCM_PHASE:waveform"){
+        field(SCAN,"1 second")
+        field(INP,"rcsRf9:wcm_phase")
+        field(NELM,"2048")
+        field(FTVL,"FLOAT")
+}
+
+
 record(waveform,"ACC_RCS_RRF:LLRF::BPM1P_AMP:waveform"){
 	field(SCAN,"1 second")
-	field(INP,"rcsRf9:wf_1")
-	field(DTYP,"Soft Channel")
+	field(INP,"rcsRf11:bpm1p")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM1N_AMP:waveform"){
 	field(SCAN,"1 second")
-	field(INP,"rcsRf9:wf_2")
-	field(DTYP,"Soft Channel")
+	field(INP,"rcsRf11:bpm1n")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM1_AMP:waveform"){
 	field(SCAN,"1 second")
-	field(INP,"rcsRf9:bpm1.VALA")
-	field(DTYP,"Soft Channel")
+	field(INP,"rcsRf11:bpm1.VALA")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM2P_AMP:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:wf_4a")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm2p")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM2N_AMP:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:wf_4b")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm2n")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM2_AMP:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:bpm2.VALA")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm2.VALA")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM1P_Phase:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:wf_5b")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm1p_phase")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM1N_Phase:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:wf_6a")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm1n_phase")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM2P_Phase:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:wf_6b")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm2p_phase")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
 
 record(waveform,"ACC_RCS_RRF:LLRF::BPM2N_Phase:waveform"){
         field(SCAN,"1 second")
-        field(INP,"rcsRf9:wf_7")
-        field(DTYP,"Soft Channel")
+        field(INP,"rcsRf11:bpm2n_phase")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6103,14 +6353,12 @@ record(waveform,"ACC_RCS_RRF:LLRF::BPM2N_Phase:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF::BeamAmp:waveform"){
 	field(SCAN,"1 second")
 	field(INP,"rcsRf1:wf_3")
-	field(DTYP,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
 record(waveform,"ACC_RCS_RRF:LLRF::BeamPhase:waveform"){
 	field(SCAN,"1 second")
 	field(INP,"rcsRf1:wf_5b")
-	field(DTYP,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
@@ -6118,7 +6366,6 @@ record(waveform,"ACC_RCS_RRF:LLRF::BeamPhase:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV1::Amp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_1")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6126,7 +6373,6 @@ record(waveform,"ACC_RCS_RRF:CAV1::Amp:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV1::AmpSkew:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_amp_skew")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6134,7 +6380,6 @@ record(waveform,"ACC_RCS_RRF:CAV1::AmpSkew:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::GridAmp:waveform"){
 	field(SCAN,"1 second")
 	field(INP,"rcsRf1:wf_grid")
-	field(DTYPE,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
@@ -6142,7 +6387,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::GridAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::FrontAmp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_front")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6150,7 +6394,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::FrontAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::CavTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_4b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6158,7 +6401,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::CavTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::GridTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_4a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6166,7 +6408,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::GridTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::BiasGive:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_6a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6174,7 +6415,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::BiasGive:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::BiasFF:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_6b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6182,7 +6422,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::BiasFF:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF1::GridBias:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf1:wf_7")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6191,7 +6430,6 @@ record(waveform,"ACC_RCS_RRF:LLRF1::GridBias:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV2::Amp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_1")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6199,7 +6437,6 @@ record(waveform,"ACC_RCS_RRF:CAV2::Amp:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV2::AmpSkew:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_amp_skew")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6207,7 +6444,6 @@ record(waveform,"ACC_RCS_RRF:CAV2::AmpSkew:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::GridAmp:waveform"){
 	field(SCAN,"1 second")
 	field(INP,"rcsRf2:wf_grid")
-	field(DTYPE,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
@@ -6215,7 +6451,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::GridAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::FrontAmp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_front")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6223,7 +6458,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::FrontAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::CavTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_4b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6231,7 +6465,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::CavTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::GridTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_4a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6239,7 +6472,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::GridTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::BiasGive:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_6a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6247,7 +6479,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::BiasGive:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::BiasFF:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_6b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6255,7 +6486,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::BiasFF:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF2::GridBias:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf2:wf_7")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6263,7 +6493,6 @@ record(waveform,"ACC_RCS_RRF:LLRF2::GridBias:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV3::Amp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_1")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6271,7 +6500,6 @@ record(waveform,"ACC_RCS_RRF:CAV3::Amp:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV3::AmpSkew:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_amp_skew")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6279,7 +6507,6 @@ record(waveform,"ACC_RCS_RRF:CAV3::AmpSkew:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::GridAmp:waveform"){
 	field(SCAN,"1 second")
 	field(INP,"rcsRf3:wf_grid")
-	field(DTYPE,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
@@ -6287,7 +6514,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::GridAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::FrontAmp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_front")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6295,7 +6521,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::FrontAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::CavTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_4b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6303,7 +6528,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::CavTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::GridTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_4a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6311,7 +6535,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::GridTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::BiasGive:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_6a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6319,7 +6542,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::BiasGive:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::BiasFF:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_6b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6327,7 +6549,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::BiasFF:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF3::GridBias:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf3:wf_7")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6335,7 +6556,6 @@ record(waveform,"ACC_RCS_RRF:LLRF3::GridBias:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV4::Amp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf4:wf_1")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6343,7 +6563,6 @@ record(waveform,"ACC_RCS_RRF:CAV4::Amp:waveform"){
 record(waveform,"ACC_RCS_RRF:CAV4::AmpSkew:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf4:wf_amp_skew")
-        field(DTYP,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6351,7 +6570,6 @@ record(waveform,"ACC_RCS_RRF:CAV4::AmpSkew:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF4::GridAmp:waveform"){
 	field(SCAN,"1 second")
 	field(INP,"rcsRf4:wf_grid")
-	field(DTYPE,"Soft Channel")
 	field(NELM,"2048")
 	field(FTVL,"FLOAT")
 }
@@ -6359,7 +6577,6 @@ record(waveform,"ACC_RCS_RRF:LLRF4::GridAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF4::FrontAmp:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf4:wf_front")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6367,7 +6584,6 @@ record(waveform,"ACC_RCS_RRF:LLRF4::FrontAmp:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF4::CavTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf4:wf_4b")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6375,7 +6591,6 @@ record(waveform,"ACC_RCS_RRF:LLRF4::CavTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF4::GridTune:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf4:wf_4a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6383,7 +6598,6 @@ record(waveform,"ACC_RCS_RRF:LLRF4::GridTune:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF4::BiasGive:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf4:wf_6a")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }
@@ -6687,7 +6901,6 @@ record(waveform,"ACC_RCS_RRF:LLRF8::BiasFF:waveform"){
 record(waveform,"ACC_RCS_RRF:LLRF8::GridBias:waveform"){
         field(SCAN,"1 second")
         field(INP,"rcsRf8:wf_7")
-        field(DTYPE,"Soft Channel")
         field(NELM,"2048")
         field(FTVL,"FLOAT")
 }

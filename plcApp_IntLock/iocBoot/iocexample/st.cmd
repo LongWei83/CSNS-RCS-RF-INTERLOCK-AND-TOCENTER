@@ -28,5 +28,4 @@ dbLoadRecords "db/autoOnOff.db"
 
 iocInit
 
-seq sncExample
 seq sncExample2
