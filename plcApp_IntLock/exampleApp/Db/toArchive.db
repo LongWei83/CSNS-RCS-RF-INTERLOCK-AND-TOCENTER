@@ -1,3 +1,435 @@
+record(ai, "ACC_RCS_RRF:RFPS1::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS1::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf1:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS2::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf2:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS3::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf3:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS4::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf4:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS5::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf5:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS6::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf6:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS7::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf7:rf:INT14")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT6:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT6")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT7:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT7")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT8:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT8")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT9:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT9")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT10:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT10")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT11:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT11")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT12:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT12")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT13:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT13")
+}
+record(ai, "ACC_RCS_RRF:RFPS8::INT14:ai")
+{
+        field(SCAN, "1 second")
+
+        field(INP, "rcsRRf8:rf:INT14")
+}
 record(ai, "ACC_RCS_RRF:RFPS1::INT19:ai")
 {
         field(SCAN, "1 second")
