@@ -8,6 +8,7 @@
 ../O.Common/example.dbd : ../common.dbd
 ../O.Common/example.dbd : ../yew.dbd
 ../O.Common/example.dbd : ../biasdataRecord.dbd
+../O.Common/example.dbd : ../caPutLog.dbd
 ../O.Common/example.dbd : ../sncExample2.dbd
 ../O.Common/example.dbd : /home/long/Epics/base-3.14.12.5/dbd/menuGlobal.dbd
 ../O.Common/example.dbd : /home/long/Epics/base-3.14.12.5/dbd/menuConvert.dbd

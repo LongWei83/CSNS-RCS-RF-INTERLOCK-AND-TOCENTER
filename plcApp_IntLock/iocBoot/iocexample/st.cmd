@@ -25,7 +25,9 @@ dbLoadRecords "db/biasAll.db"
 ## Run this to trace the stages of iocInit
 #traceIocInit
 
-
+asSetFilename("/home/long/Epics/apps/plcApp_IntLock/rcsrf.acf")
 iocInit
 
 seq sncExample2
+
+caPutLogInit "127.0.0.1:7011" ,1

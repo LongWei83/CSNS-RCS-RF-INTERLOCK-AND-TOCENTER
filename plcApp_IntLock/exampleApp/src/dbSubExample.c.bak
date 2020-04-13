@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 #include <dbDefs.h>
 #include <registryFunction.h>
@@ -82,39 +81,38 @@ static long stringChoose(aSubRecord *precord)
 	char *a;
 	char *aDest;
 	char *bDest;
-	char *cDest;
 	char *c;
 	double b;
 	
 	unsigned long noa;
 	a = (char *)precord->a;
 	c = (char *)precord->c;
-
 	int strsize;
 	aDest = (char *)precord->vala;
 	bDest = (char *)precord->valb;
 
 	noa = precord->noa;
-	strsize = (int)noa; 
+	strsize = (int)noa;
 
+	
+	
 	dbGetLink(&precord->inpa, DBR_STRING, precord->a, 0, &noa);
 	dbGetLink(&precord->inpb, DBR_DOUBLE, &b, 0, 1);
 	
-    	if(strcmp(a,c)!=0)
-    	{
-		/*printf("b is %f\n",b);*/
-		if(b == 0)
-		{
-			strncpy(bDest, a, strsize);
-		}
-		else
-		{
-			strncpy(aDest, a, strsize);
-		}
-    	}
+    if(strcmp(a,c)!=0)
+    {
+	/*printf("b is %f\n",b);*/
+	if(b == 0)
+	{
+		strncpy(bDest, a, strsize);
+	}
+	else
+	{
+		strncpy(aDest, a, strsize);
+	}
+    }
 
 	strncpy(c,a,strsize);
-
 	return 0;
 }
 

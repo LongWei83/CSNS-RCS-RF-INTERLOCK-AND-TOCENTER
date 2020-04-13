@@ -1,0 +1,3442 @@
+record(ai, "AutoOnOff:StatusFlag")
+{
+	field(DESC, "Status for AutoOnOff System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff:Interval")
+{
+	field(DESC, "Interval for Next Step")
+	field(INP, "5")
+	field(EGU, "Seconds")
+}
+record(ai, "AutoOnOff:CavityNum")
+{
+	field(DESC, "Num of RF System to Open or Close")
+	field(INP, "0")
+}
+record(stringout,"AutoOnOff:logMsg")
+{
+	field(DESC, "logMsg for History")
+}
+
+record(ai, "AutoOnOff1:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff1:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff1:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff1:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff1:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122700")
+}
+record(ai, "AutoOnOff1:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff1:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff1:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff1:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2500")
+}
+record(ai, "AutoOnOff1:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff1:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff1:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff1:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff1:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff1:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff1:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff1:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff1:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff1:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff1:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff1:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff1:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff1:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff1:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff1:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff1:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff1:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.3")
+}
+record(ai, "AutoOnOff1:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff1:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff1:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff1:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff1:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff1:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff1:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff1:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff1:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "58")
+}
+
+
+
+record(ai, "AutoOnOff2:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff2:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff2:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff2:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff2:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122702")
+}
+record(ai, "AutoOnOff2:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff2:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff2:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff2:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4600")
+}
+record(ai, "AutoOnOff2:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff2:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff2:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff2:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff2:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff2:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff2:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff2:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff2:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff2:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff2:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff2:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff2:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff2:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff2:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff2:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff2:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff2:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.3")
+}
+record(ai, "AutoOnOff2:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff2:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff2:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff2:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff2:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff2:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff2:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "109")
+}
+record(ai, "AutoOnOff2:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff2:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "58")
+}
+
+
+
+
+record(ai, "AutoOnOff3:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff3:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff3:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff3:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff3:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122706")
+}
+record(ai, "AutoOnOff3:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff3:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff3:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff3:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2500")
+}
+record(ai, "AutoOnOff3:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff3:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff3:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff3:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff3:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff3:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff3:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff3:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff3:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff3:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff3:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff3:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff3:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff3:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff3:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff3:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff3:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff3:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.4")
+}
+record(ai, "AutoOnOff3:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff3:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff3:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff3:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff3:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff3:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff3:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "107")
+}
+record(ai, "AutoOnOff3:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff3:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "47")
+}
+
+
+
+
+record(ai, "AutoOnOff4:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff4:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff4:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff4:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff4:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122707")
+}
+record(ai, "AutoOnOff4:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff4:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff4:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff4:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2500")
+}
+record(ai, "AutoOnOff4:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff4:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff4:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff4:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff4:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff4:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff4:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff4:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff4:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff4:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff4:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff4:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff4:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff4:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff4:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff4:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff4:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff4:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.4")
+}
+record(ai, "AutoOnOff4:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff4:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff4:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff4:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff4:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff4:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff4:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "131")
+}
+record(ai, "AutoOnOff4:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff4:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "49")
+}
+
+
+
+
+record(ai, "AutoOnOff5:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff5:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff5:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff5:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff5:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122705")
+}
+record(ai, "AutoOnOff5:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff5:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff5:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff5:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2500")
+}
+record(ai, "AutoOnOff5:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff5:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff5:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff5:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff5:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff5:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff5:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff5:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff5:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff5:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff5:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff5:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff5:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff5:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff5:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff5:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff5:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff5:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.4")
+}
+record(ai, "AutoOnOff5:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff5:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff5:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff5:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff5:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff5:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff5:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff5:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff5:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "47")
+}
+
+
+
+
+record(ai, "AutoOnOff6:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff6:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff6:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff6:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff6:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122710")
+}
+record(ai, "AutoOnOff6:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff6:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff6:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff6:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2500")
+}
+record(ai, "AutoOnOff6:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff6:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff6:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff6:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff6:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff6:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff6:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff6:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff6:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff6:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff6:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff6:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff6:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff6:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff6:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff6:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff6:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.14")
+}
+record(ai, "AutoOnOff6:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.3")
+}
+record(ai, "AutoOnOff6:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff6:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff6:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff6:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff6:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff6:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff6:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "150")
+}
+record(ai, "AutoOnOff6:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff6:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "42")
+}
+
+
+
+record(ai, "AutoOnOff7:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff7:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff7:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff7:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff7:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122706")
+}
+record(ai, "AutoOnOff7:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff7:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff7:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff7:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "3500")
+}
+record(ai, "AutoOnOff7:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff7:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff7:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff7:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff7:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff7:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff7:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff7:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff7:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff7:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff7:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff7:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff7:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff7:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff7:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff7:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff7:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff7:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.4")
+}
+record(ai, "AutoOnOff7:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff7:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff7:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff7:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff7:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff7:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff7:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "178")
+}
+record(ai, "AutoOnOff7:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff7:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "49")
+}
+
+
+
+record(ai, "AutoOnOff8:Parameter0")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "1")
+}
+record(ai, "AutoOnOff8:Parameter1")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "40")
+}
+record(ai, "AutoOnOff8:Parameter2")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff8:Parameter3")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff8:Parameter4")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "122703")
+}
+record(ai, "AutoOnOff8:Parameter5")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "100")
+}
+record(ai, "AutoOnOff8:Parameter6")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2")
+}
+record(ai, "AutoOnOff8:Parameter7")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff8:Parameter8")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2500")
+}
+record(ai, "AutoOnOff8:Parameter9")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "170")
+}
+record(ai, "AutoOnOff8:Parameter10")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "6")
+}
+record(ai, "AutoOnOff8:Parameter11")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff8:Parameter12")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff8:Parameter13")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.04")
+}
+record(ai, "AutoOnOff8:Parameter14")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff8:Parameter15")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "2000")
+}
+record(ai, "AutoOnOff8:Parameter16")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff8:Parameter17")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "8")
+}
+record(ai, "AutoOnOff8:Parameter18")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+record(ai, "AutoOnOff8:Parameter19")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0")
+}
+record(ai, "AutoOnOff8:Parameter20")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "4")
+}
+record(ai, "AutoOnOff8:Parameter21")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.02")
+}
+
+record(ai, "AutoOnOff8:Parameter22")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "10")
+}
+record(ai, "AutoOnOff8:Parameter23")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff8:Parameter24")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff8:Parameter25")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.1")
+}
+record(ai, "AutoOnOff8:Parameter26")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.4")
+}
+record(ai, "AutoOnOff8:Parameter27")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.16")
+}
+record(ai, "AutoOnOff8:Parameter28")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "140")
+}
+record(ai, "AutoOnOff8:Parameter29")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "180")
+}
+record(ai, "AutoOnOff8:Parameter30")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "224")
+}
+record(ai, "AutoOnOff8:Parameter31")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff8:Parameter32")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "0.2")
+}
+record(ai, "AutoOnOff8:Parameter33")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "290")
+}
+record(ai, "AutoOnOff8:Parameter34")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "26")
+}
+record(ai, "AutoOnOff8:Parameter35")
+{
+	field(DESC, "parameters of RF System")
+	field(INP, "57")
+}
+
+
+record(ao,"AutoOnOff:rcsRf1:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf1:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf1:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf1:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf1:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf1:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf1:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf1:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf1:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf1:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf1:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf1:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf1:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf1:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf1:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf1:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf1:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf1:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf1:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf1:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf1:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf1:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf2:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf2:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf2:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf2:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf2:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf2:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf2:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf2:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf2:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf2:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf2:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf2:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf2:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf2:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf2:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf2:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf2:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf2:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf2:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf2:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf2:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf2:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf3:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf3:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf3:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf3:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf3:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf3:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf3:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf3:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf3:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf3:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf3:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf3:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf3:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf3:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf3:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf3:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf3:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf3:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf3:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf3:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf3:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf3:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf4:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf4:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf4:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf4:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf4:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf4:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf4:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf4:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf4:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf4:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf4:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf4:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf4:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf4:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf4:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf4:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf4:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf4:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf4:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf4:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf4:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf4:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf5:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf5:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf5:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf5:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf5:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf5:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf5:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf5:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf5:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf5:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf5:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf5:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf5:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf5:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf5:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf5:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf5:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf5:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf5:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf5:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf5:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf5:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf6:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf6:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf6:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf6:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf6:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf6:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf6:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf6:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf6:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf6:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf6:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf6:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf6:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf6:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf6:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf6:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf6:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf6:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf6:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf6:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf6:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf6:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf7:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf7:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf7:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf7:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf7:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf7:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf7:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf7:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf7:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf7:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf7:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf7:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf7:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf7:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf7:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf7:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf7:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf7:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf7:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf7:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf7:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf7:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:drvReset_set")
+}
+
+record(ao,"AutoOnOff:rcsRf8:fixFrequency_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:fixFrequency_set")
+}
+record(ao,"AutoOnOff:rcsRf8:workPeriod_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:workPeriod_set")
+}
+record(ao,"AutoOnOff:rcsRf8:amp_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:amp_set")
+}
+record(ao,"AutoOnOff:rcsRf8:FF_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:FF_Delay_set")
+}
+record(ao,"AutoOnOff:rcsRf8:PreTrig_Delay_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf9:allPretrig_set")
+}
+record(ao,"AutoOnOff:rcsRf8:ampCoefficient_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:ampCoefficient_set")
+}
+record(ao,"AutoOnOff:rcsRf8:ampPSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:ampPSet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:ampISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:ampISet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:biasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:biasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:fixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:fixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf8:tunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:tunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:tuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:tuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:tuneISet1_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:tuneISet1_set")
+}
+record(ao,"AutoOnOff:rcsRf8:tuneISet2_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:tuneISet2_set")
+}
+record(ao,"AutoOnOff:rcsRf8:tuneISet3_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:tuneISet3_set")
+}
+record(ao,"AutoOnOff:rcsRf8:frontBiasSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:frontBiasSet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:frontFixTuningAngle_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:frontFixTuningAngle_set")
+}
+record(ao,"AutoOnOff:rcsRf8:frontTunePSet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:frontTunePSet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:frontTuneISet_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:frontTuneISet_set")
+}
+record(ao,"AutoOnOff:rcsRf8:initial_Phase_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:initial_Phase_set")
+}
+record(ao,"AutoOnOff:rcsRf8:phase_p_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:phase_p_set")
+}
+record(ao,"AutoOnOff:rcsRf8:phase_i_set")
+{
+        field(DESC, "")
+        field(PREC, "6")
+        field(OUT, "rcsRf8:phase_i_set")
+}
+
+record(bo,"AutoOnOff:rcsRf8:pointSweep_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:pointSweep_set")
+}
+record(bo,"AutoOnOff:rcsRf8:sweepOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:sweepOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:intEnable_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:intEnable_set")
+}
+record(bo,"AutoOnOff:rcsRf8:sgMode_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:sgMode_set")
+}
+
+record(bo,"AutoOnOff:rcsRf8:ampOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:ampOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:ampFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:ampFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:ampModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:ampModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:tuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:tuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:tuneFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:tuneFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:tuneModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:tuneModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:frontTuneOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:frontTuneOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:phaseOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:phaseOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:phaseFFOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:phaseFFOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:phaseModifyOption_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:phaseModifyOption_set")
+}
+record(bo,"AutoOnOff:rcsRf8:rfReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:rfReset_set")
+}
+record(bo,"AutoOnOff:rcsRf8:drvReset_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:drvReset_set")
+}
+
+record(bo,"AutoOnOff:rcsRf1:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf2:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf3:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf4:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf5:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf6:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf7:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:Initial_Ref_Phase_set")
+}
+record(bo,"AutoOnOff:rcsRf8:Initial_Ref_Phase_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:Initial_Ref_Phase_set")
+}
+
+record(bo,"AutoOnOff:rcsRf1:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf1:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf2:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf2:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf3:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf3:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf4:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf4:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf5:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf5:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf6:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf6:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf7:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf7:RBF_Delay_set")
+}
+record(bo,"AutoOnOff:rcsRf8:RBF_Delay_set") {
+        field(DESC, "")
+        field(ZNAM,"0")
+        field(ONAM,"1")
+        field(OUT,"rcsRf8:RBF_Delay_set")
+}
+

@@ -166,7 +166,7 @@ record(stringin,"ACC_RCS_RRF:LLRF::CurveName")
 
 record(aSub,"ACC_RCS_RRF:LLRF::CurveName:stringin")
 {
-	field(SCAN,"1 second")
+	field(SCAN, "1 second")
 	field(SNAM, "stringChoose")
 	field(FTA, "STRING")
 	field(FTC, "STRING")
@@ -178,6 +178,18 @@ record(aSub,"ACC_RCS_RRF:LLRF::CurveName:stringin")
 	field(FTVA,"STRING")
 	field(NOVB,"40")
 	field(FTVB,"STRING")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::FPGA_Restart:ai")
+{
+	field(SCAN, "1 second")
+	field(INP, "rcsRf11:fpga_restart_get")
+}
+
+record(ai, "ACC_RCS_RRF:LLRF::SynOscCoeffic:ai")
+{
+	field(SCAN, "1 second")
+	field(INP, "rcsRf10:SynOscCoeffic_get")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF::memoryUsedPercent:ai")
@@ -210,6 +222,16 @@ record(ai, "ACC_RCS_RRF:LLRF:LLRF1:WorkPeriod:ai")
 {
         field(SCAN, "1 second")
         field(INP, "rcsRf1:workPeriod_get")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::SynOscCoeffic:ao")
+{
+	field(OUT,"rcsRf10:SynOscCoeffic_set")
+}
+
+record(ao, "ACC_RCS_RRF:LLRF::FPGA_Restart:ao")
+{
+	field(OUT,"rcsRf11:fpga_restart_set")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF1:WorkPeriod:ao")
@@ -325,10 +347,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF1:Amp:ao")
 	field(OUT,"rcsRf1:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF1:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF1:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf1:ampCoefficient_get")
+	field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf1:amp_get")
+	field(INPB, "rcsRf1:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF1:AmpCoefficient:ao")
@@ -654,10 +678,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF2:Amp:ao")
 	field(OUT,"rcsRf2:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF2:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF2:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf2:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf2:amp_get")
+        field(INPB, "rcsRf2:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF2:AmpCoefficient:ao")
@@ -983,10 +1009,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF3:Amp:ao")
 	field(OUT,"rcsRf3:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF3:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF3:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf3:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf3:amp_get")
+        field(INPB, "rcsRf3:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF3:AmpCoefficient:ao")
@@ -1312,10 +1340,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF4:Amp:ao")
 	field(OUT,"rcsRf4:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF4:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF4:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf4:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf4:amp_get")
+        field(INPB, "rcsRf4:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF4:AmpCoefficient:ao")
@@ -1641,10 +1671,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF5:Amp:ao")
 	field(OUT,"rcsRf5:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF5:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF5:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf5:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf5:amp_get")
+        field(INPB, "rcsRf5:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF5:AmpCoefficient:ao")
@@ -1970,10 +2002,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF6:Amp:ao")
 	field(OUT,"rcsRf6:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF6:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF6:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf6:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf6:amp_get")
+        field(INPB, "rcsRf6:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF6:AmpCoefficient:ao")
@@ -2299,10 +2333,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF7:Amp:ao")
 	field(OUT,"rcsRf7:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF7:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF7:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf7:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf7:amp_get")
+        field(INPB, "rcsRf7:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF7:AmpCoefficient:ao")
@@ -2628,10 +2664,12 @@ record(ao, "ACC_RCS_RRF:LLRF:LLRF8:Amp:ao")
 	field(OUT,"rcsRf8:amp_set")
 }
 
-record(ai, "ACC_RCS_RRF:LLRF:LLRF8:AmpCoefficient:ai")
+record(calc, "ACC_RCS_RRF:LLRF:LLRF8:AmpCoefficient:ai")
 {
         field(SCAN, "1 second")
-        field(INP, "rcsRf8:ampCoefficient_get")
+        field(CALC,"(A == 0)?0:B")
+        field(INPA, "rcsRf8:amp_get")
+        field(INPB, "rcsRf8:ampCoefficient_get")
 }
 
 record(ao, "ACC_RCS_RRF:LLRF:LLRF8:AmpCoefficient:ao")
@@ -6032,6 +6070,62 @@ record(waveform,"ACC_RCS_RRF:LLRF::AmpCurveSet:waveform") {
 	field(FTVL,"FLOAT")
 }
 
+record(calc, "ACC_RCS_RRF:LLRF1::Pwr")
+{
+	field(SCAN,"1 second")
+	field(CALC, "(A == 1)?1:0")
+	field(INPA, "rcsRf1:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF2::Pwr")
+{
+	field(SCAN,"1 second")
+	field(CALC,"(A == 1)?1:0")
+	field(INPA, "rcsRf2:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF3::Pwr")
+{
+        field(SCAN,"1 second")
+        field(CALC,"(A == 1)?1:0")
+        field(INPA, "rcsRf3:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF4::Pwr")
+{
+        field(SCAN,"1 second")
+        field(CALC,"(A == 1)?1:0")
+        field(INPA, "rcsRf4:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF5::Pwr")
+{
+        field(SCAN,"1 second")
+        field(CALC,"(A == 1)?1:0")
+        field(INPA, "rcsRf5:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF6::Pwr")
+{
+        field(SCAN,"1 second")
+        field(CALC,"(A == 1)?1:0")
+        field(INPA, "rcsRf6:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF7::Pwr")
+{
+        field(SCAN,"1 second")
+        field(CALC,"(A == 1)?1:0")
+        field(INPA, "rcsRf7:rf:INT39")
+}
+
+record(calc, "ACC_RCS_RRF:LLRF8::Pwr")
+{
+        field(SCAN,"1 second")
+        field(CALC,"(A == 1)?1:0")
+        field(INPA, "rcsRf8:rf:INT39")
+}
+
 record(calc, "ACC_RCS_RRF:RRF1:LLRF:Alarm")
 {
         field(SCAN,"1 second")
@@ -7357,62 +7451,6 @@ record(bo, "ACC_RCS_RRF:LLRF::ChangeCurve:bo")
 	field(OUT,"rcsRf9:curveChange_set")
 }
 
-record(bo, "ACC_RCS_RRF:LLRF:LLRF1:IntEnable:bo")
-{
-	field(ZNAM,"0")
-	field(ONAM,"1")
-	field(OUT,"rcsRf1:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF2:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf2:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF3:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf3:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF4:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf4:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF5:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf5:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF6:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf6:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF7:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf7:intEnable_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF8:IntEnable:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf8:intEnable_set")
-}
-
 record(bo, "ACC_RCS_RRF:LLRF:LLRF9:IntEnable:bo")
 {
         field(ZNAM,"0")
@@ -7420,67 +7458,31 @@ record(bo, "ACC_RCS_RRF:LLRF:LLRF9:IntEnable:bo")
         field(OUT,"rcsRf9:intEnable_set")
 }
 
-record(bo, "ACC_RCS_RRF:LLRF:LLRF1:RFReset:bo")
+record(bo, "ACC_RCS_RRF:LLRF:LLRF10:IntEnable:bo")
 {
         field(ZNAM,"0")
         field(ONAM,"1")
-        field(OUT,"rcsRf1:rfReset_set")
+        field(OUT,"rcsRf10:intEnable_set")
 }
 
-record(bo, "ACC_RCS_RRF:LLRF:LLRF2:RFReset:bo")
+record(bo, "ACC_RCS_RRF:LLRF:LLRF11:IntEnable:bo")
 {
         field(ZNAM,"0")
         field(ONAM,"1")
-        field(OUT,"rcsRf2:rfReset_set")
+        field(OUT,"rcsRf11:intEnable_set")
 }
 
-record(bo, "ACC_RCS_RRF:LLRF:LLRF3:RFReset:bo")
+record(bo, "ACC_RCS_RRF:LLRF:LLRF10:RfReset:bo")
 {
         field(ZNAM,"0")
         field(ONAM,"1")
-        field(OUT,"rcsRf3:rfReset_set")
+        field(OUT,"rcsRf10:rfReset_set")
 }
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF4:RFReset:bo")
+record(bo, "ACC_RCS_RRF:LLRF:LLRF11:RfReset:bo")
 {
         field(ZNAM,"0")
         field(ONAM,"1")
-        field(OUT,"rcsRf4:rfReset_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF5:RFReset:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf5:rfReset_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF6:RFReset:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf6:rfReset_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF7:RFReset:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf7:rfReset_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF8:RFReset:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf8:rfReset_set")
-}
-
-record(bo, "ACC_RCS_RRF:LLRF:LLRF9:RFReset:bo")
-{
-        field(ZNAM,"0")
-        field(ONAM,"1")
-        field(OUT,"rcsRf9:rfReset_set")
+        field(OUT,"rcsRf11:rfReset_set")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF::CavUsed:ai")
@@ -7591,21 +7593,21 @@ record(ai, "ACC_RCS_RRF:LLRF1::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
 	field(EGU, "V")
-        field(INP, "rcsRf1:FrontRfVol:ai")
+        field(INP, "rcsRf1:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF1::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf1:GridRfVol:ai")
+        field(INP, "rcsRf1:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF1::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf1:CavRfVol:ai")
+        field(INP, "rcsRf1:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF1::VolFront:ai")
@@ -7656,21 +7658,21 @@ record(ai, "ACC_RCS_RRF:LLRF2::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf2:FrontRfVol:ai")
+        field(INP, "rcsRf2:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF2::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf2:GridRfVol:ai")
+        field(INP, "rcsRf2:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF2::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf2:CavRfVol:ai")
+        field(INP, "rcsRf2:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF2::VolFront:ai")
@@ -7722,21 +7724,21 @@ record(ai, "ACC_RCS_RRF:LLRF3::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf3:FrontRfVol:ai")
+        field(INP, "rcsRf3:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF3::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf3:GridRfVol:ai")
+        field(INP, "rcsRf3:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF3::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf3:CavRfVol:ai")
+        field(INP, "rcsRf3:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF3::VolFront:ai")
@@ -7788,21 +7790,21 @@ record(ai, "ACC_RCS_RRF:LLRF4::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf4:FrontRfVol:ai")
+        field(INP, "rcsRf4:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF4::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf4:GridRfVol:ai")
+        field(INP, "rcsRf4:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF4::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf4:CavRfVol:ai")
+        field(INP, "rcsRf4:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF4::VolFront:ai")
@@ -7855,21 +7857,21 @@ record(ai, "ACC_RCS_RRF:LLRF5::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf5:FrontRfVol:ai")
+        field(INP, "rcsRf5:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF5::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf5:GridRfVol:ai")
+        field(INP, "rcsRf5:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF5::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf5:CavRfVol:ai")
+        field(INP, "rcsRf5:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF5::VolFront:ai")
@@ -7923,21 +7925,21 @@ record(ai, "ACC_RCS_RRF:LLRF6::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf6:FrontRfVol:ai")
+        field(INP, "rcsRf6:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF6::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf6:GridRfVol:ai")
+        field(INP, "rcsRf6:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF6::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf6:CavRfVol:ai")
+        field(INP, "rcsRf6:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF6::VolFront:ai")
@@ -7990,21 +7992,21 @@ record(ai, "ACC_RCS_RRF:LLRF7::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf7:FrontRfVol:ai")
+        field(INP, "rcsRf7:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF7::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf7:GridRfVol:ai")
+        field(INP, "rcsRf7:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF7::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf7:CavRfVol:ai")
+        field(INP, "rcsRf7:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF7::VolFront:ai")
@@ -8057,21 +8059,21 @@ record(ai, "ACC_RCS_RRF:LLRF8::FrontRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf8:FrontRfVol:ai")
+        field(INP, "rcsRf8:FrontRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF8::GridRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf8:GridRfVol:ai")
+        field(INP, "rcsRf8:GridRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF8::CavRfVol:ai")
 {
         field(SCAN, "1 second")
         field(EGU, "V")
-        field(INP, "rcsRf8:CavRfVol:ai")
+        field(INP, "rcsRf8:CavRfVol:ai.VALA")
 }
 
 record(ai, "ACC_RCS_RRF:LLRF8::VolFront:ai")

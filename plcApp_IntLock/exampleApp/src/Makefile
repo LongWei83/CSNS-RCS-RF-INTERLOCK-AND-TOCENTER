@@ -14,6 +14,7 @@ DBDINC += xxxRecord
 DBDINC += biasdataRecord
 # Install devXxxSoft.dbd into <top>/dbd
 DBD += xxxSupport.dbd
+DBD += caPutLog.dbd
 
 # Compile and add the code to the support library
 exampleSupport_SRCS += xxxRecord.c
@@ -43,6 +44,7 @@ example_DBD += initTrace.dbd
 example_DBD += common.dbd
 example_DBD += yew.dbd
 example_DBD += biasdataRecord.dbd
+example_DBD += caPutLog.dbd
 
 # example_registerRecordDeviceDriver.cpp derives from example.dbd
 example_SRCS += example_registerRecordDeviceDriver.cpp
@@ -58,6 +60,7 @@ example_OBJS_vxWorks += $(EPICS_BASE_BIN)/vxComLibrary
 # Link in the code from the support library
 example_LIBS += exampleSupport
 example_LIBS += netDev
+example_LIBS += caPutLog
 
 
 
